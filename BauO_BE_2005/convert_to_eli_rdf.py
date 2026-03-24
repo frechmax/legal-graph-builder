@@ -48,7 +48,14 @@ def slug(value: str) -> str:
 
 
 def escape_ttl(value: str) -> str:
-    return value.replace("\\", "\\\\").replace('"', '\\"')
+    # Escape backslashes, double quotes and newlines for safe Turtle literals.
+    return (
+        value.replace("\\", "\\\\")
+        .replace('"', '\\"')
+        .replace("\r\n", "\n")
+        .replace("\r", "\n")
+        .replace("\n", "\\n")
+    )
 
 
 def first_text(elem: Optional[ET.Element], tag: str) -> str:
@@ -215,6 +222,7 @@ def build_graph(root: ET.Element) -> List[str]:
         )
 
         current_absatz_uri: Optional[str] = None
+        absatz_chunks: dict[str, List[str]] = {}
         for child in list(textdaten):
             if child.tag == "p":
                 ptxt = norm_text("".join(child.itertext()))
@@ -227,13 +235,11 @@ def build_graph(root: ET.Element) -> List[str]:
                         parent_uri=par_uri,
                         type_name="absatz",
                         number=absatz_no,
-                        description=body if body else None,
                     )
                     current_absatz_uri = absatz_uri
+                    absatz_chunks[current_absatz_uri] = [body] if body else []
                 elif current_absatz_uri and ptxt:
-                    triples.append(
-                        f'<{current_absatz_uri}> eli:description "{escape_ttl(ptxt)}"@de .'
-                    )
+                    absatz_chunks.setdefault(current_absatz_uri, []).append(ptxt)
             elif child.tag == "dl" and current_absatz_uri:
                 for num, body in parse_list_items(child):
                     num_uri = f"{current_absatz_uri}/nr_{slug(num)}"
@@ -245,6 +251,16 @@ def build_graph(root: ET.Element) -> List[str]:
                         number=num,
                         description=body if body else None,
                     )
+                    absatz_chunks.setdefault(current_absatz_uri, []).append(
+                        f"{num}. {body}"
+                    )
+
+        for absatz_uri, chunks in absatz_chunks.items():
+            full_text = "\n".join(chunk for chunk in chunks if chunk).strip()
+            if full_text:
+                triples.append(
+                    f'<{absatz_uri}> eli:description "{escape_ttl(full_text)}"@de .'
+                )
 
     triples.append(
         f"<{BASE_RES}> eli:description "

@@ -42,7 +42,14 @@ def slug(value: str) -> str:
 
 
 def escape_ttl(value: str) -> str:
-    return value.replace("\\", "\\\\").replace('"', '\\"')
+    # Escape backslashes, double quotes and newlines for safe Turtle literals
+    return (
+        value.replace("\\", "\\\\")
+        .replace('"', '\\"')
+        .replace("\r\n", "\n")
+        .replace("\r", "\n")
+        .replace("\n", "\\n")
+    )
 
 
 def parse_absatz(text: str) -> Tuple[Optional[str], str]:
@@ -300,6 +307,7 @@ def build_graph(parsed: HBauOParser) -> List[str]:
         )
 
         current_absatz_uri: Optional[str] = None
+        absatz_chunks: dict[str, List[str]] = {}
         pending_number: Optional[str] = None
         for element_kind, text in unit["elements"]:
             text = norm_text(text)
@@ -318,13 +326,11 @@ def build_graph(parsed: HBauOParser) -> List[str]:
                         parent_uri=par_uri,
                         type_name="absatz",
                         number=absatz_no,
-                        description=body if body else None,
                     )
                     current_absatz_uri = absatz_uri
+                    absatz_chunks[current_absatz_uri] = [body] if body else []
                 elif current_absatz_uri:
-                    triples.append(
-                        f'<{current_absatz_uri}> eli:description "{escape_ttl(text)}"@de .'
-                    )
+                    absatz_chunks.setdefault(current_absatz_uri, []).append(text)
                 continue
 
             if element_kind == "dt":
@@ -341,7 +347,18 @@ def build_graph(parsed: HBauOParser) -> List[str]:
                     number=pending_number,
                     description=text,
                 )
+                absatz_chunks.setdefault(current_absatz_uri, []).append(
+                    f"{pending_number}. {text}"
+                )
                 pending_number = None
+
+        for absatz_uri, chunks in absatz_chunks.items():
+            # Join chunks with an explicit newline between them (user requested an "enter")
+            full_text = "\n".join(chunk for chunk in chunks if chunk).strip()
+            if full_text:
+                triples.append(
+                    f'<{absatz_uri}> eli:description "{escape_ttl(full_text)}"@de .'
+                )
 
     triples.append(
         f"<{BASE_RES}> eli:description "
