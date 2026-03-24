@@ -14,7 +14,7 @@ import argparse
 import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Tuple
+from typing import Iterable, List, Optional, Tuple
 
 
 ELI = "http://data.europa.eu/eli/ontology#"
@@ -74,7 +74,7 @@ def make_subdivision(
 ) -> None:
     triples.append(
         f"<{uri}> a eli:LegalResourceSubdivision ;\n"
-        f'    eli:type_subdivision <{BASE_VOCAB}{type_name}> ;\n'
+        f"    eli:type_subdivision exvocab:{type_name} ;\n"
         f'    eli:number "{escape_ttl(number)}" ;\n'
         f"    eli:is_part_of <{parent_uri}> ."
     )
@@ -256,8 +256,22 @@ def build_graph(root: ET.Element) -> List[str]:
 def write_ttl(path: Path, triples: List[str]) -> None:
     header = "\n".join(
         [
-            "@prefix eli: <http://data.europa.eu/eli/ontology#> .",
+            "@prefix owl:     <http://www.w3.org/2002/07/owl#> .",
+            "@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .",
+            "@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .",
+            "@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .",
+            "@prefix eli:     <http://data.europa.eu/eli/ontology#> .",
             "@prefix dcterms: <http://purl.org/dc/terms/> .",
+            "@prefix ex: <https://example.org/eli/de/be/bauo/2005/> .",
+            "@prefix exvocab: <https://example.org/vocab/subdivision/> .",
+            "@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .",
+            "",
+            "<https://example.org/eli/de/be/bauo/data>",
+            "    a owl:Ontology ;",
+            "    owl:imports <http://data.europa.eu/eli/ontology> ;",
+            '    dcterms:title "BauO Berlin 2005 Instanzdaten (ABox)"@de ;',
+            '    dcterms:description "ELI-konforme ABox-Daten zur Berliner Bauordnung 2005"@de .',
+            "",
             "",
         ]
     )
