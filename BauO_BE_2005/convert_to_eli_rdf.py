@@ -278,7 +278,7 @@ def write_ttl(path: Path, triples: List[str]) -> None:
             "@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .",
             "@prefix eli:     <http://data.europa.eu/eli/ontology#> .",
             "@prefix dcterms: <http://purl.org/dc/terms/> .",
-            "@prefix ex: <https://example.org/eli/de/be/bauo/2005/> .",
+            "@prefix bauobln: <https://example.org/eli/de/be/bauo/2005/> .",
             "@prefix exvocab: <https://example.org/vocab/subdivision/> .",
             "@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .",
             "",
