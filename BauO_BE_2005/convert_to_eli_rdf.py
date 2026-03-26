@@ -183,6 +183,10 @@ def add_satz_node(
     )
 
 
+def ends_with_sentence_punctuation(text: str) -> bool:
+    return bool(re.search(r"[.!?]\s*$", norm_text(text)))
+
+
 def build_graph(root: ET.Element) -> List[str]:
     triples: List[str] = []
     triples.append(
@@ -282,11 +286,15 @@ def build_graph(root: ET.Element) -> List[str]:
         absatz_chunks: dict[str, List[str]] = {}
         satz_idx_by_absatz: dict[str, int] = {}
         satz_chunks: dict[str, List[str]] = {}
+        pending_list_prefix_by_absatz: dict[str, str] = {}
+        awaiting_list_suffix_by_absatz: dict[str, str] = {}
 
-        for child in list(textdaten):
+        children = list(textdaten)
+        for idx, child in enumerate(children):
             if child.tag == "p":
                 ptxt = norm_text("".join(child.itertext()))
                 absatz_no, body = parse_absatz(ptxt)
+
                 if absatz_no:
                     absatz_uri = f"{par_uri}/abs_{slug(absatz_no)}"
                     make_subdivision(
@@ -297,14 +305,8 @@ def build_graph(root: ET.Element) -> List[str]:
                         number=absatz_no,
                     )
                     current_absatz_uri = absatz_uri
-                    absatz_chunks[current_absatz_uri] = [body] if body else []
-                    for sentence in split_sentences(body):
-                        add_satz_node(
-                            triples=triples,
-                            parent_absatz_uri=current_absatz_uri,
-                            satz_idx_by_absatz=satz_idx_by_absatz,
-                            text=sentence,
-                        )
+                    absatz_chunks[current_absatz_uri] = []
+                    text_body = body
                 elif ptxt:
                     if not current_absatz_uri:
                         default_no = "1"
@@ -317,15 +319,43 @@ def build_graph(root: ET.Element) -> List[str]:
                             number=default_no,
                         )
                         absatz_chunks.setdefault(current_absatz_uri, [])
-                    target_absatz_uri = current_absatz_uri
-                    absatz_chunks.setdefault(target_absatz_uri, []).append(ptxt)
-                    for sentence in split_sentences(ptxt):
+                    text_body = ptxt
+                else:
+                    continue
+
+                target_absatz_uri = current_absatz_uri
+                absatz_chunks.setdefault(target_absatz_uri, []).append(text_body)
+
+                sentences = split_sentences(text_body)
+
+                # If the previous list opened a sentence, append the first fitting fragment here.
+                awaited_satz_uri = awaiting_list_suffix_by_absatz.get(target_absatz_uri)
+                if awaited_satz_uri and sentences:
+                    first = sentences[0]
+                    if re.match(r"^[a-zäöüß]", first):
+                        satz_chunks.setdefault(awaited_satz_uri, []).append(first)
+                        sentences = sentences[1:]
+                        awaiting_list_suffix_by_absatz.pop(target_absatz_uri, None)
+
+                next_is_dl = idx + 1 < len(children) and children[idx + 1].tag == "dl"
+                if next_is_dl and sentences and not ends_with_sentence_punctuation(text_body):
+                    for sentence in sentences[:-1]:
                         add_satz_node(
                             triples=triples,
                             parent_absatz_uri=target_absatz_uri,
                             satz_idx_by_absatz=satz_idx_by_absatz,
                             text=sentence,
                         )
+                    pending_list_prefix_by_absatz[target_absatz_uri] = sentences[-1]
+                else:
+                    for sentence in sentences:
+                        add_satz_node(
+                            triples=triples,
+                            parent_absatz_uri=target_absatz_uri,
+                            satz_idx_by_absatz=satz_idx_by_absatz,
+                            text=sentence,
+                        )
+
             elif child.tag == "dl":
                 if not current_absatz_uri:
                     default_no = "1"
@@ -338,6 +368,7 @@ def build_graph(root: ET.Element) -> List[str]:
                         number=default_no,
                     )
                     absatz_chunks.setdefault(current_absatz_uri, [])
+
                 target_absatz_uri = current_absatz_uri
                 satz_idx_by_absatz[target_absatz_uri] = (
                     satz_idx_by_absatz.get(target_absatz_uri, 0) + 1
@@ -353,6 +384,10 @@ def build_graph(root: ET.Element) -> List[str]:
                 )
                 satz_chunks.setdefault(satz_uri, [])
 
+                pending_prefix = pending_list_prefix_by_absatz.pop(target_absatz_uri, "")
+                if pending_prefix:
+                    satz_chunks[satz_uri].append(pending_prefix)
+
                 for num, body in parse_list_items(child):
                     num_uri = f"{satz_uri}/nr_{slug(num)}"
                     make_subdivision(
@@ -367,6 +402,9 @@ def build_graph(root: ET.Element) -> List[str]:
                     absatz_chunks.setdefault(target_absatz_uri, []).append(
                         f"{num}. {body}"
                     )
+
+                if pending_prefix:
+                    awaiting_list_suffix_by_absatz[target_absatz_uri] = satz_uri
 
         for satz_uri, chunks in satz_chunks.items():
             full_text = "\n".join(chunk for chunk in chunks if chunk).strip()
