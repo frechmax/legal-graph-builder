@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Konvertiert BauO_BE_2005/content.xml in eine ELI-konforme Turtle-Datei
-mit hierarchischen Untergliederungen (Teil/Abschnitt/§/Absatz/Nummer).
+mit hierarchischen Untergliederungen (Teil/Abschnitt/§/Absatz/Satz/Nummer).
 
 Nutzung:
     python convert_to_eli_rdf.py
@@ -126,12 +126,69 @@ def parse_list_items(dl: ET.Element) -> List[Tuple[str, str]]:
     return out
 
 
+def split_sentences(text: str) -> List[str]:
+    text = norm_text(text)
+    if not text:
+        return []
+
+    # Protect common legal abbreviations from sentence splitting.
+    dot_token = "<DOT>"
+    abbreviations = [
+        "Abs.",
+        "Nr.",
+        "Art.",
+        "Buchst.",
+        "S.",
+        "z.B.",
+        "u.a.",
+        "bzw.",
+        "d.h.",
+        "i.V.m.",
+    ]
+
+    protected = text
+    for abbr in abbreviations:
+        protected = protected.replace(abbr, abbr.replace(".", dot_token))
+
+    parts = re.split(r"(?<=[.!?])\s+", protected)
+    sentences: List[str] = []
+    for part in parts:
+        restored = part.replace(dot_token, ".").strip()
+        if restored:
+            sentences.append(restored)
+    return sentences
+
+
+def add_satz_node(
+    triples: List[str],
+    parent_absatz_uri: str,
+    satz_idx_by_absatz: dict[str, int],
+    text: str,
+) -> None:
+    text = norm_text(text)
+    if not text:
+        return
+    satz_idx_by_absatz[parent_absatz_uri] = (
+        satz_idx_by_absatz.get(parent_absatz_uri, 0) + 1
+    )
+    satz_no = str(satz_idx_by_absatz[parent_absatz_uri])
+    satz_uri = f"{parent_absatz_uri}/satz_{slug(satz_no)}"
+    make_subdivision(
+        triples=triples,
+        uri=satz_uri,
+        parent_uri=parent_absatz_uri,
+        type_name="satz",
+        number=satz_no,
+        description=text,
+    )
+
+
 def build_graph(root: ET.Element) -> List[str]:
     triples: List[str] = []
     triples.append(
         f"<{BASE_RES}> a eli:LegalResource ;\n"
-        '    eli:number "BauO BE 2005" ;\n'
-        '    eli:title "Bauordnung für Berlin (BauO Bln) vom 29. September 2005"@de .'
+        '    eli:number "BauO Bln" ;\n'
+        '    eli:title "Bauordnung für Berlin (BauO Bln) Stand: 21.01.2026"@de .'
     )
 
     current_part: Optional[str] = None
@@ -223,6 +280,9 @@ def build_graph(root: ET.Element) -> List[str]:
 
         current_absatz_uri: Optional[str] = None
         absatz_chunks: dict[str, List[str]] = {}
+        satz_idx_by_absatz: dict[str, int] = {}
+        satz_chunks: dict[str, List[str]] = {}
+
         for child in list(textdaten):
             if child.tag == "p":
                 ptxt = norm_text("".join(child.itertext()))
@@ -238,22 +298,82 @@ def build_graph(root: ET.Element) -> List[str]:
                     )
                     current_absatz_uri = absatz_uri
                     absatz_chunks[current_absatz_uri] = [body] if body else []
-                elif current_absatz_uri and ptxt:
-                    absatz_chunks.setdefault(current_absatz_uri, []).append(ptxt)
-            elif child.tag == "dl" and current_absatz_uri:
+                    for sentence in split_sentences(body):
+                        add_satz_node(
+                            triples=triples,
+                            parent_absatz_uri=current_absatz_uri,
+                            satz_idx_by_absatz=satz_idx_by_absatz,
+                            text=sentence,
+                        )
+                elif ptxt:
+                    if not current_absatz_uri:
+                        default_no = "1"
+                        current_absatz_uri = f"{par_uri}/abs_{slug(default_no)}"
+                        make_subdivision(
+                            triples=triples,
+                            uri=current_absatz_uri,
+                            parent_uri=par_uri,
+                            type_name="absatz",
+                            number=default_no,
+                        )
+                        absatz_chunks.setdefault(current_absatz_uri, [])
+                    target_absatz_uri = current_absatz_uri
+                    absatz_chunks.setdefault(target_absatz_uri, []).append(ptxt)
+                    for sentence in split_sentences(ptxt):
+                        add_satz_node(
+                            triples=triples,
+                            parent_absatz_uri=target_absatz_uri,
+                            satz_idx_by_absatz=satz_idx_by_absatz,
+                            text=sentence,
+                        )
+            elif child.tag == "dl":
+                if not current_absatz_uri:
+                    default_no = "1"
+                    current_absatz_uri = f"{par_uri}/abs_{slug(default_no)}"
+                    make_subdivision(
+                        triples=triples,
+                        uri=current_absatz_uri,
+                        parent_uri=par_uri,
+                        type_name="absatz",
+                        number=default_no,
+                    )
+                    absatz_chunks.setdefault(current_absatz_uri, [])
+                target_absatz_uri = current_absatz_uri
+                satz_idx_by_absatz[target_absatz_uri] = (
+                    satz_idx_by_absatz.get(target_absatz_uri, 0) + 1
+                )
+                satz_no = str(satz_idx_by_absatz[target_absatz_uri])
+                satz_uri = f"{target_absatz_uri}/satz_{slug(satz_no)}"
+                make_subdivision(
+                    triples=triples,
+                    uri=satz_uri,
+                    parent_uri=target_absatz_uri,
+                    type_name="satz",
+                    number=satz_no,
+                )
+                satz_chunks.setdefault(satz_uri, [])
+
                 for num, body in parse_list_items(child):
-                    num_uri = f"{current_absatz_uri}/nr_{slug(num)}"
+                    num_uri = f"{satz_uri}/nr_{slug(num)}"
                     make_subdivision(
                         triples=triples,
                         uri=num_uri,
-                        parent_uri=current_absatz_uri,
+                        parent_uri=satz_uri,
                         type_name="nummer",
                         number=num,
                         description=body if body else None,
                     )
-                    absatz_chunks.setdefault(current_absatz_uri, []).append(
+                    satz_chunks.setdefault(satz_uri, []).append(f"{num}. {body}")
+                    absatz_chunks.setdefault(target_absatz_uri, []).append(
                         f"{num}. {body}"
                     )
+
+        for satz_uri, chunks in satz_chunks.items():
+            full_text = "\n".join(chunk for chunk in chunks if chunk).strip()
+            if full_text:
+                triples.append(
+                    f'<{satz_uri}> eli:description "{escape_ttl(full_text)}"@de .'
+                )
 
         for absatz_uri, chunks in absatz_chunks.items():
             full_text = "\n".join(chunk for chunk in chunks if chunk).strip()
@@ -286,7 +406,7 @@ def write_ttl(path: Path, triples: List[str]) -> None:
             "    a owl:Ontology ;",
             "    owl:imports <http://data.europa.eu/eli/ontology> ;",
             '    dcterms:title "BauO Berlin 2005 Instanzdaten (ABox)"@de ;',
-            '    dcterms:description "ELI-konforme ABox-Daten zur Berliner Bauordnung 2005"@de .',
+            '    dcterms:description "ELI-konforme ABox-Daten zur Berliner Bauordnung Stand: 21.01.2026"@de .',
             "",
             "",
         ]
@@ -297,10 +417,10 @@ def write_ttl(path: Path, triples: List[str]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", default="content.xml", help="Pfad zur content.xml")
+    parser.add_argument("--input", default="./BauO_BE_2005/content.xml", help="Pfad zur content.xml")
     parser.add_argument(
         "--output",
-        default="bauo_be_2005_eli.ttl",
+        default="./BauO_BE_2005/bauo_be_2005_eli.ttl",
         help="Zieldatei für Turtle-Ausgabe",
     )
     args = parser.parse_args()
