@@ -107,17 +107,38 @@ function canToggleNode(nodeData) {
 function populateDataSelect(treeData) {
   dataSelect.innerHTML = "";
 
-  const allOption = document.createElement("option");
-  allOption.value = treeData.uri;
-  allOption.textContent = "BauO BE 2005 (Gesamt)";
-  dataSelect.append(allOption);
+  const appendOption = (container, value, label) => {
+    const option = document.createElement("option");
+    option.value = value;
+    option.textContent = label;
+    container.append(option);
+  };
+
+  appendOption(dataSelect, treeData.uri, "BauO BE 2005 (Gesamt)");
 
   const teile = (treeData.children || []).filter((child) => child.type === "teil");
+
+  const teileGroup = document.createElement("optgroup");
+  teileGroup.label = "Teile";
   for (const teil of teile) {
-    const option = document.createElement("option");
-    option.value = teil.uri;
-    option.textContent = teil.name;
-    dataSelect.append(option);
+    appendOption(teileGroup, teil.uri, teil.name);
+  }
+  dataSelect.append(teileGroup);
+
+  const dritterTeil = teile.find(
+    (teil) => teil.uri.endsWith("/teil/3") || /dritter/i.test(`${teil.number || ""} ${teil.name || ""}`)
+  );
+
+  if (dritterTeil) {
+    const abschnitte = (dritterTeil.children || []).filter((child) => child.type === "abschnitt");
+    if (abschnitte.length) {
+      const abschnitteGroup = document.createElement("optgroup");
+      abschnitteGroup.label = "Dritter Teil - Abschnitte";
+      for (const abschnitt of abschnitte) {
+        appendOption(abschnitteGroup, abschnitt.uri, abschnitt.name);
+      }
+      dataSelect.append(abschnitteGroup);
+    }
   }
 
   dataSelect.value = currentFilterUri || treeData.uri;
