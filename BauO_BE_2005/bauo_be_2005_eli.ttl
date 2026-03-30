@@ -831,7 +831,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_3/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_3/abs_1/satz_2> .
 
-<https://example.org/eli/de/be/bauo/2005/par_3/abs_1/satz_2> eli:description "März 2011 zur Festlegung harmonisierter Bedingungen für die Vermarktung von Bauprodukten und zur Aufhebung der Richtlinie 89/106/EWG des Rates (ABl."@de .
+<https://example.org/eli/de/be/bauo/2005/par_3/abs_1/satz_2> eli:description "L 88 vom 4.4.2011, S. 5, L 103 vom 12.4.2013, S. 10, L 92 vom 8.4.2015, S. 118) in der jeweils geltenden Fassung zu beachten."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_3/abs_1/satz_3> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -840,18 +840,9 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_3/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_3/abs_1/satz_3> .
 
-<https://example.org/eli/de/be/bauo/2005/par_3/abs_1/satz_3> eli:description "L 88 vom 4.4.2011, S. 5, L 103 vom 12.4.2013, S. 10, L 92 vom 8.4.2015, S. 118) in der jeweils geltenden Fassung zu beachten."@de .
+<https://example.org/eli/de/be/bauo/2005/par_3/abs_1/satz_3> eli:description "Bei der Planung, Errichtung und Änderung baulicher Anlagen sind deren Lebenszyklusphasen zu berücksichtigen und es ist darauf zu achten, dass bei einer Beseitigung der baulichen Anlage oder ihrer Teile die anfallenden Baustoffe und Teile des Bauwerks möglichst wiederverwendet oder recycelt werden können."@de .
 
-<https://example.org/eli/de/be/bauo/2005/par_3/abs_1/satz_4> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "4" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_3/abs_1> .
-
-<https://example.org/eli/de/be/bauo/2005/par_3/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_3/abs_1/satz_4> .
-
-<https://example.org/eli/de/be/bauo/2005/par_3/abs_1/satz_4> eli:description "Bei der Planung, Errichtung und Änderung baulicher Anlagen sind deren Lebenszyklusphasen zu berücksichtigen und es ist darauf zu achten, dass bei einer Beseitigung der baulichen Anlage oder ihrer Teile die anfallenden Baustoffe und Teile des Bauwerks möglichst wiederverwendet oder recycelt werden können."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_3/abs_1/satz_1> eli:description "Anlagen sind so anzuordnen, zu errichten, zu ändern, in ihrer Nutzung zu ändern, instand zu halten und zu beseitigen, dass\n1. die öffentliche Sicherheit und Ordnung, insbesondere Leben, Gesundheit und die natürlichen Lebensgrundlagen, nicht gefährdet,\n2. die natürlichen Ressourcen nachhaltig genutzt und der Schutz von Natur und Landschaft angemessen berücksichtigt,\n3. umweltverträgliche Rohstoffe und Sekundärstoffe verwendet und\n4. die Belange der Baukultur berücksichtigt\nwerden, sie die allgemeinen Anforderungen ihrem Zweck entsprechend dauerhaft erfüllen und die Nutzbarkeit für alle Menschen gewährleistet ist; dabei sind die Grundanforderungen an Bauwerke gemäß Anhang I der Verordnung (EU) Nr. 305/2011 des Europäischen Parlaments und des Rates vom 9."@de .
+<https://example.org/eli/de/be/bauo/2005/par_3/abs_1/satz_1> eli:description "Anlagen sind so anzuordnen, zu errichten, zu ändern, in ihrer Nutzung zu ändern, instand zu halten und zu beseitigen, dass\n1. die öffentliche Sicherheit und Ordnung, insbesondere Leben, Gesundheit und die natürlichen Lebensgrundlagen, nicht gefährdet,\n2. die natürlichen Ressourcen nachhaltig genutzt und der Schutz von Natur und Landschaft angemessen berücksichtigt,\n3. umweltverträgliche Rohstoffe und Sekundärstoffe verwendet und\n4. die Belange der Baukultur berücksichtigt\nwerden, sie die allgemeinen Anforderungen ihrem Zweck entsprechend dauerhaft erfüllen und die Nutzbarkeit für alle Menschen gewährleistet ist; dabei sind die Grundanforderungen an Bauwerke gemäß Anhang I der Verordnung (EU) Nr. 305/2011 des Europäischen Parlaments und des Rates vom 9. März 2011 zur Festlegung harmonisierter Bedingungen für die Vermarktung von Bauprodukten und zur Aufhebung der Richtlinie 89/106/EWG des Rates (ABl."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_3/abs_1> eli:description "Anlagen sind so anzuordnen, zu errichten, zu ändern, in ihrer Nutzung zu ändern, instand zu halten und zu beseitigen, dass\n1. die öffentliche Sicherheit und Ordnung, insbesondere Leben, Gesundheit und die natürlichen Lebensgrundlagen, nicht gefährdet,\n2. die natürlichen Ressourcen nachhaltig genutzt und der Schutz von Natur und Landschaft angemessen berücksichtigt,\n3. umweltverträgliche Rohstoffe und Sekundärstoffe verwendet und\n4. die Belange der Baukultur berücksichtigt\nwerden, sie die allgemeinen Anforderungen ihrem Zweck entsprechend dauerhaft erfüllen und die Nutzbarkeit für alle Menschen gewährleistet ist; dabei sind die Grundanforderungen an Bauwerke gemäß Anhang I der Verordnung (EU) Nr. 305/2011 des Europäischen Parlaments und des Rates vom 9. März 2011 zur Festlegung harmonisierter Bedingungen für die Vermarktung von Bauprodukten und zur Aufhebung der Richtlinie 89/106/EWG des Rates (ABl. L 88 vom 4.4.2011, S. 5, L 103 vom 12.4.2013, S. 10, L 92 vom 8.4.2015, S. 118) in der jeweils geltenden Fassung zu beachten. Bei der Planung, Errichtung und Änderung baulicher Anlagen sind deren Lebenszyklusphasen zu berücksichtigen und es ist darauf zu achten, dass bei einer Beseitigung der baulichen Anlage oder ihrer Teile die anfallenden Baustoffe und Teile des Bauwerks möglichst wiederverwendet oder recycelt werden können."@de .
 
@@ -912,7 +903,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_4/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_2> .
 
-<https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_2> eli:description "Satz 1 gilt nicht bei bestehenden Gebäuden für eine Außenwand- und Dachdämmung, die über die Bauteilanforderungen der Energieeinsparverordnung vom 24."@de .
+<https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_2> eli:description "Satz 1 gilt nicht bei bestehenden Gebäuden für eine Außenwand- und Dachdämmung, die über die Bauteilanforderungen der Energieeinsparverordnung vom 24. Juli 2007 (BGBl. I S. 1519), die zuletzt durch Artikel 3 der Verordnung vom 24. Oktober 2015 (BGBl. I S. 1789) geändert worden ist, in der jeweils geltenden Fassung, für bestehende Gebäude nicht hinausgeht."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_3> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -921,43 +912,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_4/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_3> .
 
-<https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_3> eli:description "Juli 2007 (BGBl."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_4> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "4" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_4/abs_2> .
-
-<https://example.org/eli/de/be/bauo/2005/par_4/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_4> .
-
-<https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_4> eli:description "I S. 1519), die zuletzt durch Artikel 3 der Verordnung vom 24."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_5> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "5" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_4/abs_2> .
-
-<https://example.org/eli/de/be/bauo/2005/par_4/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_5> .
-
-<https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_5> eli:description "Oktober 2015 (BGBl."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_6> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "6" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_4/abs_2> .
-
-<https://example.org/eli/de/be/bauo/2005/par_4/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_6> .
-
-<https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_6> eli:description "I S. 1789) geändert worden ist, in der jeweils geltenden Fassung, für bestehende Gebäude nicht hinausgeht."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_7> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "7" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_4/abs_2> .
-
-<https://example.org/eli/de/be/bauo/2005/par_4/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_7> .
-
-<https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_7> eli:description "Satz 2 gilt entsprechend für die mit der Wärmedämmung zusammenhängenden notwendigen Änderungen von Bauteilen."@de .
+<https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_3> eli:description "Satz 2 gilt entsprechend für die mit der Wärmedämmung zusammenhängenden notwendigen Änderungen von Bauteilen."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_4/abs_1> eli:description "Gebäude dürfen nur errichtet werden, wenn das Grundstück in angemessener Breite an einer befahrbaren öffentlichen Verkehrsfläche liegt oder wenn das Grundstück eine befahrbare, öffentlich-rechtlich gesicherte Zufahrt zu einer befahrbaren öffentlichen Verkehrsfläche hat."@de .
 
@@ -2766,16 +2721,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_16b/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_16b/abs_2/satz_1> .
 
-<https://example.org/eli/de/be/bauo/2005/par_16b/abs_2/satz_1> eli:description "Bauprodukte, die in Vorschriften anderer Vertragsstaaten des Abkommens vom 2."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_16b/abs_2/satz_2> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "2" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_16b/abs_2> .
-
-<https://example.org/eli/de/be/bauo/2005/par_16b/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_16b/abs_2/satz_2> .
-
-<https://example.org/eli/de/be/bauo/2005/par_16b/abs_2/satz_2> eli:description "Mai 1992 über den europäischen Wirtschaftsraum genannten technischen Anforderungen entsprechen, dürfen verwendet werden, wenn das geforderte Schutzniveau gemäß § 3 Satz 1 gleichermaßen dauerhaft erreicht wird."@de .
+<https://example.org/eli/de/be/bauo/2005/par_16b/abs_2/satz_1> eli:description "Bauprodukte, die in Vorschriften anderer Vertragsstaaten des Abkommens vom 2. Mai 1992 über den europäischen Wirtschaftsraum genannten technischen Anforderungen entsprechen, dürfen verwendet werden, wenn das geforderte Schutzniveau gemäß § 3 Satz 1 gleichermaßen dauerhaft erreicht wird."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_16b/abs_1> eli:description "Bauprodukte dürfen nur verwendet werden, wenn bei ihrer Verwendung die baulichen Anlagen bei ordnungsgemäßer Instandhaltung während einer dem Zweck entsprechenden angemessenen Zeitdauer die Anforderungen dieses Gesetzes oder auf Grund dieses Gesetzes erfüllen und gebrauchstauglich sind."@de .
 
@@ -7352,7 +7298,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_43/abs_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_43/abs_3/satz_2> .
 
-<https://example.org/eli/de/be/bauo/2005/par_43/abs_3/satz_2> eli:description "Bestehende Wohnungen sind bis zum 31."@de .
+<https://example.org/eli/de/be/bauo/2005/par_43/abs_3/satz_2> eli:description "Bestehende Wohnungen sind bis zum 31. Dezember 2030 mit eigenen Kaltwasserzählern auszustatten."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_43/abs_3/satz_3> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -7361,16 +7307,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_43/abs_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_43/abs_3/satz_3> .
 
-<https://example.org/eli/de/be/bauo/2005/par_43/abs_3/satz_3> eli:description "Dezember 2030 mit eigenen Kaltwasserzählern auszustatten."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_43/abs_3/satz_4> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "4" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_43/abs_3> .
-
-<https://example.org/eli/de/be/bauo/2005/par_43/abs_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_43/abs_3/satz_4> .
-
-<https://example.org/eli/de/be/bauo/2005/par_43/abs_3/satz_4> eli:description "Dies gilt nicht, wenn die Anforderung nach Satz 2 nur mit einem unverhältnismäßig hohen Mehraufwand erfüllt werden kann."@de .
+<https://example.org/eli/de/be/bauo/2005/par_43/abs_3/satz_3> eli:description "Dies gilt nicht, wenn die Anforderung nach Satz 2 nur mit einem unverhältnismäßig hohen Mehraufwand erfüllt werden kann."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_43/abs_1> eli:description "Fensterlose Bäder und Toiletten sind nur zulässig, wenn eine wirksame Lüftung gewährleistet ist."@de .
 
@@ -7419,7 +7356,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_44/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_3> .
 
-<https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_3> eli:description "Niederschlagswasser soll gemäß § 36a des Berliner Wassergesetzes vom 17."@de .
+<https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_3> eli:description "Niederschlagswasser soll gemäß § 36a des Berliner Wassergesetzes vom 17. Juni 2005 (GVBl."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_4> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -7428,7 +7365,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_44/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_4> .
 
-<https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_4> eli:description "Juni 2005 (GVBl."@de .
+<https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_4> eli:description "S. 357), das zuletzt durch Artikel 11 des Gesetzes vom 11. Dezember 2024 (GVBl."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_5> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -7437,25 +7374,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_44/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_5> .
 
-<https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_5> eli:description "S. 357), das zuletzt durch Artikel 11 des Gesetzes vom 11."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_6> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "6" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_44/abs_1> .
-
-<https://example.org/eli/de/be/bauo/2005/par_44/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_6> .
-
-<https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_6> eli:description "Dezember 2024 (GVBl."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_7> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "7" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_44/abs_1> .
-
-<https://example.org/eli/de/be/bauo/2005/par_44/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_7> .
-
-<https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_7> eli:description "S. 614) geändert worden ist, in der jeweils geltenden Fassung über die belebte Bodenschicht versickert werden."@de .
+<https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_5> eli:description "S. 614) geändert worden ist, in der jeweils geltenden Fassung über die belebte Bodenschicht versickert werden."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_44/abs_2> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:absatz ;
@@ -7877,7 +7796,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_48/abs_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_48/abs_4/satz_3> .
 
-<https://example.org/eli/de/be/bauo/2005/par_48/abs_4/satz_3> eli:description "Bestehende Wohnungen sind bis zum 31."@de .
+<https://example.org/eli/de/be/bauo/2005/par_48/abs_4/satz_3> eli:description "Bestehende Wohnungen sind bis zum 31. Dezember 2020 entsprechend auszustatten."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_48/abs_4/satz_4> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -7886,16 +7805,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_48/abs_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_48/abs_4/satz_4> .
 
-<https://example.org/eli/de/be/bauo/2005/par_48/abs_4/satz_4> eli:description "Dezember 2020 entsprechend auszustatten."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_48/abs_4/satz_5> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "5" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_48/abs_4> .
-
-<https://example.org/eli/de/be/bauo/2005/par_48/abs_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_48/abs_4/satz_5> .
-
-<https://example.org/eli/de/be/bauo/2005/par_48/abs_4/satz_5> eli:description "Die Sicherstellung der Betriebsbereitschaft obliegt den Mietern oder sonstigen Nutzungsberechtigten, es sei denn, die Eigentümerin oder der Eigentümer übernimmt diese Verpflichtung selbst."@de .
+<https://example.org/eli/de/be/bauo/2005/par_48/abs_4/satz_4> eli:description "Die Sicherstellung der Betriebsbereitschaft obliegt den Mietern oder sonstigen Nutzungsberechtigten, es sei denn, die Eigentümerin oder der Eigentümer übernimmt diese Verpflichtung selbst."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_48/abs_5> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:absatz ;
@@ -8254,7 +8164,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_50/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_5> .
 
-<https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_5> eli:description "Wird ab dem 1."@de .
+<https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_5> eli:description "Wird ab dem 1. Januar 2025 ein Bauvorhaben gemäß § 62 angezeigt oder ein bauaufsichtliches Verfahren gemäß § 63 oder § 64 beantragt, müssen zusätzlich insgesamt drei Viertel der Wohnungen barrierefrei erreichbar sein und es muss in Gebäuden mit mehr als 100 Wohnungen eine der barrierefrei nutzbaren Wohnungen je 100 Wohnungen rollstuhlgerecht errichtet werden."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_6> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -8263,16 +8173,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_50/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_6> .
 
-<https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_6> eli:description "Januar 2025 ein Bauvorhaben gemäß § 62 angezeigt oder ein bauaufsichtliches Verfahren gemäß § 63 oder § 64 beantragt, müssen zusätzlich insgesamt drei Viertel der Wohnungen barrierefrei erreichbar sein und es muss in Gebäuden mit mehr als 100 Wohnungen eine der barrierefrei nutzbaren Wohnungen je 100 Wohnungen rollstuhlgerecht errichtet werden."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_7> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "7" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_50/abs_1> .
-
-<https://example.org/eli/de/be/bauo/2005/par_50/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_7> .
-
-<https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_7> eli:description "Die Sätze 1 bis 3 gelten nicht, wenn durch nachträglichen Ausbau des Dachgeschosses, durch Aufstockung um bis zu zwei Geschosse oder durch Teilung von Wohnungen zusätzliche Wohnungen entstehen."@de .
+<https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_6> eli:description "Die Sätze 1 bis 3 gelten nicht, wenn durch nachträglichen Ausbau des Dachgeschosses, durch Aufstockung um bis zu zwei Geschosse oder durch Teilung von Wohnungen zusätzliche Wohnungen entstehen."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_50/abs_2> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:absatz ;
@@ -9884,7 +9785,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_61/abs_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_3> .
 
-<https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_3> eli:description "Mit der beabsichtigten Anzeige der Beseitigung von Gebäuden mit Wohnraum ist die Genehmigung nach dem Zweckentfremdungsverbot-Gesetz vom 29."@de .
+<https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_3> eli:description "Mit der beabsichtigten Anzeige der Beseitigung von Gebäuden mit Wohnraum ist die Genehmigung nach dem Zweckentfremdungsverbot-Gesetz vom 29. November 2013 (GVBl."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_4> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -9893,7 +9794,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_61/abs_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_4> .
 
-<https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_4> eli:description "November 2013 (GVBl."@de .
+<https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_4> eli:description "S. 626) in der jeweils geltenden Fassung vorzulegen; die Bauaufsichtsbehörde hat die beabsichtigte Beseitigung der für das Verbot der Zweckentfremdung zuständigen Stelle unverzüglich mitzuteilen."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_5> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -9902,7 +9803,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_61/abs_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_5> .
 
-<https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_5> eli:description "S. 626) in der jeweils geltenden Fassung vorzulegen; die Bauaufsichtsbehörde hat die beabsichtigte Beseitigung der für das Verbot der Zweckentfremdung zuständigen Stelle unverzüglich mitzuteilen."@de .
+<https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_5> eli:description "Bei nicht freistehenden Gebäuden muss die Standsicherheit des Gebäudes oder der Gebäude, an die das zu beseitigende Gebäude angebaut ist, durch einen qualifizierten Tragwerksplaner im Sinn des § 66 Absatz 2 beurteilt und im erforderlichen Umfang überwacht werden; die Beseitigung ist, soweit notwendig, durch den qualifizierten Tragwerksplaner zu überwachen."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_6> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -9911,7 +9812,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_61/abs_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_6> .
 
-<https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_6> eli:description "Bei nicht freistehenden Gebäuden muss die Standsicherheit des Gebäudes oder der Gebäude, an die das zu beseitigende Gebäude angebaut ist, durch einen qualifizierten Tragwerksplaner im Sinn des § 66 Absatz 2 beurteilt und im erforderlichen Umfang überwacht werden; die Beseitigung ist, soweit notwendig, durch den qualifizierten Tragwerksplaner zu überwachen."@de .
+<https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_6> eli:description "Satz 4 gilt nicht, soweit an verfahrensfreie Gebäude angebaut ist."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_7> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -9920,16 +9821,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_61/abs_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_7> .
 
-<https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_7> eli:description "Satz 4 gilt nicht, soweit an verfahrensfreie Gebäude angebaut ist."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_8> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "8" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_61/abs_3> .
-
-<https://example.org/eli/de/be/bauo/2005/par_61/abs_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_8> .
-
-<https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_8> eli:description "§ 72 Absatz 1 und 2 Nummer 2 gilt entsprechend."@de .
+<https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_7> eli:description "§ 72 Absatz 1 und 2 Nummer 2 gilt entsprechend."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_61/abs_4> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:absatz ;
@@ -10046,42 +9938,6 @@
 <https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_3/nr_2> .
 
 <https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_3/nr_2> eli:description "baulicher Anlagen, die öffentlich zugänglich sind, wenn dadurch die gleichzeitige Nutzung durch mehr als 50 zusätzliche Besucher ermöglicht wird,"@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_4> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "4" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_62/abs_1> .
-
-<https://example.org/eli/de/be/bauo/2005/par_62/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_4> .
-
-<https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_4> eli:description "Mai 2013 (BGBl."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_5> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "5" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_62/abs_1> .
-
-<https://example.org/eli/de/be/bauo/2005/par_62/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_5> .
-
-<https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_5> eli:description "I S. 1274), das zuletzt durch Artikel 3 des Gesetzes vom 18."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_6> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "6" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_62/abs_1> .
-
-<https://example.org/eli/de/be/bauo/2005/par_62/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_6> .
-
-<https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_6> eli:description "Juli 2017 (BGBl."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_7> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "7" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_62/abs_1> .
-
-<https://example.org/eli/de/be/bauo/2005/par_62/abs_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_7> .
-
-<https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_7> eli:description "I S. 2771) geändert worden ist, in der jeweils geltenden Fassung liegen; ist der angemessene Sicherheitsabstand nicht bekannt, ist maßgeblich, ob sich das Vorhaben innerhalb des Achtungsabstands des Betriebsbereichs befindet."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_62/abs_2> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:absatz ;
@@ -10276,7 +10132,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_62/abs_6/satz_2> eli:description "§ 68 Absatz 2 Satz 1, § 72 Absatz 1, 2 Nummer 2 und Absatz 3 sowie § 73 Absatz 1 Satz 3 und Absatz 2 Satz 3 bis 5 sind entsprechend anzuwenden."@de .
 
-<https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_3> eli:description "Satz 1 gilt nicht für die Errichtung, Änderung oder Nutzungsänderung\n1. eines oder mehrerer Gebäude, wenn dadurch dem Wohnen dienende Nutzungseinheiten mit einer Größe von insgesamt mehr als 2500 Quadratmeter Brutto-Grundfläche geschaffen werden, und\n2. baulicher Anlagen, die öffentlich zugänglich sind, wenn dadurch die gleichzeitige Nutzung durch mehr als 50 zusätzliche Besucher ermöglicht wird,\ndie innerhalb des angemessenen Sicherheitsabstands eines Betriebsbereichs im Sinne des § 3 Absatz 5a des Bundes-Immissionsschutzgesetzes in der Fassung der Bekanntmachung vom 17."@de .
+<https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_3> eli:description "Satz 1 gilt nicht für die Errichtung, Änderung oder Nutzungsänderung\n1. eines oder mehrerer Gebäude, wenn dadurch dem Wohnen dienende Nutzungseinheiten mit einer Größe von insgesamt mehr als 2500 Quadratmeter Brutto-Grundfläche geschaffen werden, und\n2. baulicher Anlagen, die öffentlich zugänglich sind, wenn dadurch die gleichzeitige Nutzung durch mehr als 50 zusätzliche Besucher ermöglicht wird,\ndie innerhalb des angemessenen Sicherheitsabstands eines Betriebsbereichs im Sinne des § 3 Absatz 5a des Bundes-Immissionsschutzgesetzes in der Fassung der Bekanntmachung vom 17. Mai 2013 (BGBl. I S. 1274), das zuletzt durch Artikel 3 des Gesetzes vom 18. Juli 2017 (BGBl. I S. 2771) geändert worden ist, in der jeweils geltenden Fassung liegen; ist der angemessene Sicherheitsabstand nicht bekannt, ist maßgeblich, ob sich das Vorhaben innerhalb des Achtungsabstands des Betriebsbereichs befindet."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_62/abs_2/satz_1> eli:description "Nach Absatz 1 ist ein Bauvorhaben genehmigungsfrei gestellt, wenn\n1. esa) im Geltungsbereich eines Bebauungsplans im Sinne des § 30 Abs. 1 oder 2 des Baugesetzbuchs liegt und den Festsetzungen des Bebauungsplans nicht widerspricht oder die erforderlichen Befreiungen und Ausnahmen nach § 31 des Baugesetzbuchs erteilt worden sind oderb) in einem planungsrechtlichen Bescheid gemäß § 75 Absatz 2 abschließend als insgesamt planungsrechtlich zulässig festgestellt worden ist oderc) die Änderung und Nutzungsänderung von Dachgeschossen zu Wohnzwecken einschließlich der Errichtung von Dachgauben im Anwendungsbereich des § 34 Absatz 1 Satz 1 des Baugesetzbuchs zum Gegenstand hat,\n2. die Erschließung im Sinne des Baugesetzbuchs gesichert ist und\n3. die Bauaufsichtsbehörde nicht innerhalb der Frist nach Absatz 3 Satz 2 erklärt, dass das vereinfachte Baugenehmigungsverfahren durchgeführt werden soll, oder eine vorläufige Untersagung nach § 15 Abs. 1 Satz 2 des Baugesetzbuchs ausspricht."@de .
 
@@ -10861,7 +10717,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_65a/abs_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_1> .
 
-<https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_1> eli:description "§ 17 des Berufsqualifikationsfeststellungsgesetzes Berlin vom 7."@de .
+<https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_1> eli:description "§ 17 des Berufsqualifikationsfeststellungsgesetzes Berlin vom 7. Februar 2014 (GVBl."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_2> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -10870,7 +10726,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_65a/abs_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_2> .
 
-<https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_2> eli:description "Februar 2014 (GVBl."@de .
+<https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_2> eli:description "S. 39), das zuletzt durch Artikel 1 des Gesetzes vom 17. Mai 2021 (GVBl."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_3> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -10879,25 +10735,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_65a/abs_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_3> .
 
-<https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_3> eli:description "S. 39), das zuletzt durch Artikel 1 des Gesetzes vom 17."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_4> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "4" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_65a/abs_5> .
-
-<https://example.org/eli/de/be/bauo/2005/par_65a/abs_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_4> .
-
-<https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_4> eli:description "Mai 2021 (GVBl."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_5> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "5" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_65a/abs_5> .
-
-<https://example.org/eli/de/be/bauo/2005/par_65a/abs_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_5> .
-
-<https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_5> eli:description "S. 503) geändert worden ist, findet entsprechend Anwendung."@de .
+<https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_3> eli:description "S. 503) geändert worden ist, findet entsprechend Anwendung."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_65a/abs_1/satz_1> eli:description "In die Liste der Bauvorlageberechtigten ist auf Antrag von der Baukammer Berlin einzutragen, wer\n1. einen berufsqualifizierenden Hochschulabschluss eines Studiums der Fachrichtung Bauingenieurwesen gemäß den in der Anlage geregelten Leitlinien an einer deutschen Hochschule nachweist und\n2. danach mindestens zwei Jahre auf dem Gebiet der Entwurfsplanung von Gebäuden praktisch tätig gewesen ist."@de .
 
@@ -14410,7 +14248,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_84/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_2> .
 
-<https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_2> eli:description "Die Unterschrift muss öffentlich beglaubigt oder von einer Vermessungsstelle nach § 2 des Gesetzes über das Vermessungswesen in Berlin in der Fassung vom 9."@de .
+<https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_2> eli:description "Die Unterschrift muss öffentlich beglaubigt oder von einer Vermessungsstelle nach § 2 des Gesetzes über das Vermessungswesen in Berlin in der Fassung vom 9. Januar 1996 (GVBl."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_3> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -14419,7 +14257,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_84/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_3> .
 
-<https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_3> eli:description "Januar 1996 (GVBl."@de .
+<https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_3> eli:description "S. 56), das zuletzt durch Artikel I des Gesetzes vom 18. Dezember 2004 (GVBl."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_4> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -14428,25 +14266,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_84/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_4> .
 
-<https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_4> eli:description "S. 56), das zuletzt durch Artikel I des Gesetzes vom 18."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_5> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "5" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_84/abs_2> .
-
-<https://example.org/eli/de/be/bauo/2005/par_84/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_5> .
-
-<https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_5> eli:description "Dezember 2004 (GVBl."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_6> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "6" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_84/abs_2> .
-
-<https://example.org/eli/de/be/bauo/2005/par_84/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_6> .
-
-<https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_6> eli:description "S. 524) geändert worden ist, in der jeweils geltenden Fassung beglaubigt sein, wenn sie nicht vor der Bauaufsichtsbehörde geleistet oder vor ihr anerkannt wird."@de .
+<https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_4> eli:description "S. 524) geändert worden ist, in der jeweils geltenden Fassung beglaubigt sein, wenn sie nicht vor der Bauaufsichtsbehörde geleistet oder vor ihr anerkannt wird."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_84/abs_3> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:absatz ;
@@ -15155,7 +14975,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_86/abs_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_1> .
 
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_1> eli:description "Die für das Bauwesen zuständige Senatsverwaltung wird ermächtigt, durch Rechtsverordnung zu bestimmen, dass die Anforderungen der auf Grund des § 34 des Produktsicherheitsgesetzes vom 8."@de .
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_1> eli:description "Die für das Bauwesen zuständige Senatsverwaltung wird ermächtigt, durch Rechtsverordnung zu bestimmen, dass die Anforderungen der auf Grund des § 34 des Produktsicherheitsgesetzes vom 8. November 2011 (BGBl. I S. 2178, 2179; 2012 I S. 131), das durch Artikel 435 der Verordnung vom 31. August 2015 (BGBl. I S. 1474) geändert worden ist, in der jeweils geltenden Fassung und des § 49 Abs. 4 des Energiewirtschaftsgesetzes erlassenen Rechtsverordnungen entsprechend für Anlagen gelten, die weder gewerblichen noch wirtschaftlichen Zwecken dienen und in deren Gefahrenbereich auch keine Arbeitnehmerinnen oder Arbeitnehmer beschäftigt werden."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_2> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -15164,7 +14984,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_86/abs_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_2> .
 
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_2> eli:description "November 2011 (BGBl."@de .
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_2> eli:description "Sie kann auch die Verfahrensvorschriften dieser Verordnungen für anwendbar erklären oder selbst das Verfahren bestimmen sowie Zuständigkeiten und Gebühren regeln."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_3> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -15173,43 +14993,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_86/abs_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_3> .
 
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_3> eli:description "I S. 2178, 2179; 2012 I S. 131), das durch Artikel 435 der Verordnung vom 31."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_4> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "4" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_86/abs_5> .
-
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_4> .
-
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_4> eli:description "August 2015 (BGBl."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_5> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "5" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_86/abs_5> .
-
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_5> .
-
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_5> eli:description "I S. 1474) geändert worden ist, in der jeweils geltenden Fassung und des § 49 Abs. 4 des Energiewirtschaftsgesetzes erlassenen Rechtsverordnungen entsprechend für Anlagen gelten, die weder gewerblichen noch wirtschaftlichen Zwecken dienen und in deren Gefahrenbereich auch keine Arbeitnehmerinnen oder Arbeitnehmer beschäftigt werden."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_6> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "6" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_86/abs_5> .
-
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_6> .
-
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_6> eli:description "Sie kann auch die Verfahrensvorschriften dieser Verordnungen für anwendbar erklären oder selbst das Verfahren bestimmen sowie Zuständigkeiten und Gebühren regeln."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_7> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "7" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_86/abs_5> .
-
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_7> .
-
-<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_7> eli:description "Dabei kann sie auch vorschreiben, dass danach zu erteilende Erlaubnisse die Baugenehmigung oder die Zustimmung nach § 77 einschließlich der zugehörigen Abweichungen einschließen und dass § 35 Absatz 2 des Produktsicherheitsgesetzes insoweit Anwendung findet."@de .
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_3> eli:description "Dabei kann sie auch vorschreiben, dass danach zu erteilende Erlaubnisse die Baugenehmigung oder die Zustimmung nach § 77 einschließlich der zugehörigen Abweichungen einschließen und dass § 35 Absatz 2 des Produktsicherheitsgesetzes insoweit Anwendung findet."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_86/abs_6> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:absatz ;
@@ -15796,16 +15580,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_2/satz_1> .
 
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_2/satz_1> eli:description "Die vor dem 1."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_2/satz_2> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "2" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_89/abs_2> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_2/satz_2> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_2/satz_2> eli:description "Januar 2017 eingeleiteten Verfahren sind nach den bis zu diesem Zeitpunkt geltenden Vorschriften fortzuführen; die nach diesem Zeitpunkt geltenden Vorschriften sind mit Ausnahme des Fünften Teils jedoch anzuwenden, soweit diese für die Bauherrin oder den Bauherrn günstiger sind."@de .
+<https://example.org/eli/de/be/bauo/2005/par_89/abs_2/satz_1> eli:description "Die vor dem 1. Januar 2017 eingeleiteten Verfahren sind nach den bis zu diesem Zeitpunkt geltenden Vorschriften fortzuführen; die nach diesem Zeitpunkt geltenden Vorschriften sind mit Ausnahme des Fünften Teils jedoch anzuwenden, soweit diese für die Bauherrin oder den Bauherrn günstiger sind."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_3> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:absatz ;
@@ -15821,16 +15596,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_3/satz_1> .
 
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_3/satz_1> eli:description "Die vor dem 20."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_3/satz_2> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "2" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_89/abs_3> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_3/satz_2> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_3/satz_2> eli:description "April 2018 eingeleiteten Verfahren sind nach den bis zu diesem Zeitpunkt geltenden Vorschriften fortzuführen; die nach diesem Zeitpunkt geltenden Vorschriften sind mit Ausnahme des Fünften Teils jedoch anzuwenden, soweit diese für die Bauherrin oder den Bauherrn günstiger sind."@de .
+<https://example.org/eli/de/be/bauo/2005/par_89/abs_3/satz_1> eli:description "Die vor dem 20. April 2018 eingeleiteten Verfahren sind nach den bis zu diesem Zeitpunkt geltenden Vorschriften fortzuführen; die nach diesem Zeitpunkt geltenden Vorschriften sind mit Ausnahme des Fünften Teils jedoch anzuwenden, soweit diese für die Bauherrin oder den Bauherrn günstiger sind."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_4> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:absatz ;
@@ -15846,7 +15612,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_4/satz_1> .
 
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_4/satz_1> eli:description "Die Verwendung des Ü-Zeichens auf Bauprodukten, die die CE-Kennzeichnung auf Grund der Verordnung (EU) Nr. 305/2011 tragen, ist ab dem 20."@de .
+<https://example.org/eli/de/be/bauo/2005/par_89/abs_4/satz_1> eli:description "Die Verwendung des Ü-Zeichens auf Bauprodukten, die die CE-Kennzeichnung auf Grund der Verordnung (EU) Nr. 305/2011 tragen, ist ab dem 20. April 2018 nicht mehr zulässig."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_4/satz_2> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -15855,16 +15621,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_4/satz_2> .
 
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_4/satz_2> eli:description "April 2018 nicht mehr zulässig."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_4/satz_3> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "3" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_89/abs_4> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_4/satz_3> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_4/satz_3> eli:description "Sind bereits in Verkehr gebrachte Bauprodukte, die die CE-Kennzeichnung auf Grund der Verordnung (EU) Nr. 305/2011 tragen, mit dem Ü-Zeichen gekennzeichnet, verliert das Ü-Zeichen ab diesem Zeitpunkt seine Gültigkeit."@de .
+<https://example.org/eli/de/be/bauo/2005/par_89/abs_4/satz_2> eli:description "Sind bereits in Verkehr gebrachte Bauprodukte, die die CE-Kennzeichnung auf Grund der Verordnung (EU) Nr. 305/2011 tragen, mit dem Ü-Zeichen gekennzeichnet, verliert das Ü-Zeichen ab diesem Zeitpunkt seine Gültigkeit."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_5> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:absatz ;
@@ -15880,16 +15637,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_5/satz_1> .
 
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_5/satz_1> eli:description "Bis zum 20."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_5/satz_2> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "2" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_89/abs_5> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_5/satz_2> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_5/satz_2> eli:description "April 2018 für Bauarten erteilte allgemeine bauaufsichtliche Zulassungen oder Zustimmungen im Einzelfall gelten als Bauartgenehmigung fort."@de .
+<https://example.org/eli/de/be/bauo/2005/par_89/abs_5/satz_1> eli:description "Bis zum 20. April 2018 für Bauarten erteilte allgemeine bauaufsichtliche Zulassungen oder Zustimmungen im Einzelfall gelten als Bauartgenehmigung fort."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_6> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:absatz ;
@@ -15905,7 +15653,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_6/satz_1> .
 
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_6/satz_1> eli:description "Bestehende Anerkennungen als Prüf-, Überwachungs- und Zertifizierungsstehen bleiben in dem bis zum 20."@de .
+<https://example.org/eli/de/be/bauo/2005/par_89/abs_6/satz_1> eli:description "Bestehende Anerkennungen als Prüf-, Überwachungs- und Zertifizierungsstehen bleiben in dem bis zum 20. April 2018 geregelten Umfang wirksam."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_6/satz_2> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -15914,16 +15662,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_6/satz_2> .
 
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_6/satz_2> eli:description "April 2018 geregelten Umfang wirksam."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_6/satz_3> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "3" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_89/abs_6> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_6/satz_3> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_6/satz_3> eli:description "Vor diesem Zeitpunkt gestellte Anträge gelten als Anträge nach diesem Gesetz."@de .
+<https://example.org/eli/de/be/bauo/2005/par_89/abs_6/satz_2> eli:description "Vor diesem Zeitpunkt gestellte Anträge gelten als Anträge nach diesem Gesetz."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_7> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:absatz ;
@@ -15939,7 +15678,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_7> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_1> .
 
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_1> eli:description "Die in der Anlage bestimmten Ausbildungsanforderungen finden keine Anwendung auf Personen, die am 30."@de .
+<https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_1> eli:description "Die in der Anlage bestimmten Ausbildungsanforderungen finden keine Anwendung auf Personen, die am 30. Dezember 2023 ihr Studium bereits begonnen haben."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_2> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:satz ;
@@ -15948,25 +15687,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_7> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_2> .
 
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_2> eli:description "Dezember 2023 ihr Studium bereits begonnen haben."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_3> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "3" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_89/abs_7> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_7> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_3> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_3> eli:description "Für diese Personen gelten die Ausbildungsanforderungen des § 65 in der bis zum 30."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_4> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "4" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_89/abs_7> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_7> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_4> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_4> eli:description "Dezember 2023 geltenden Fassung."@de .
+<https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_2> eli:description "Für diese Personen gelten die Ausbildungsanforderungen des § 65 in der bis zum 30. Dezember 2023 geltenden Fassung."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_8> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:absatz ;
@@ -15998,25 +15719,7 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_9> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_9/satz_1> .
 
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_9/satz_1> eli:description "Für Bauvorhaben, die vor dem 4."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_9/satz_2> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "2" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_89/abs_9> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_9> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_9/satz_2> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_9/satz_2> eli:description "Februar 2026 noch nicht fertiggestellt waren, ist § 73 in der ab dem 4."@de .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_9/satz_3> a eli:LegalResourceSubdivision ;
-    eli:type_subdivision exvocab:satz ;
-    eli:number "3" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/par_89/abs_9> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_9> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89/abs_9/satz_3> .
-
-<https://example.org/eli/de/be/bauo/2005/par_89/abs_9/satz_3> eli:description "Februar 2026 geltenden Fassung anzuwenden."@de .
+<https://example.org/eli/de/be/bauo/2005/par_89/abs_9/satz_1> eli:description "Für Bauvorhaben, die vor dem 4. Februar 2026 noch nicht fertiggestellt waren, ist § 73 in der ab dem 4. Februar 2026 geltenden Fassung anzuwenden."@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_1> eli:description "Die vor dem Inkrafttreten dieses Gesetzes eingeleiteten Verfahren sind nach den bis zum Inkrafttreten geltenden Vorschriften fortzuführen; die Vorschriften dieses Gesetzes sind mit Ausnahme des Fünften Teils jedoch anzuwenden, soweit diese für die Bauherrin oder den Bauherrn günstiger sind."@de .
 

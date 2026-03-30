@@ -67,6 +67,34 @@ body {
   background: white;
 }
 
+.controls button,
+.details-nav button {
+  font: inherit;
+  border: 1px solid rgba(31, 42, 55, 0.24);
+  border-radius: 8px;
+  padding: 0.35rem 0.65rem;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.controls button:hover,
+.details-nav button:hover {
+  background: white;
+}
+
+.controls button:disabled,
+.details-nav button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.details-nav {
+  margin-top: 0.85rem;
+  display: flex;
+  gap: 0.55rem;
+}
+
 .content-grid {
   margin-top: 0.8rem;
   display: grid;

@@ -734,7 +734,7 @@
                   "type": "satz",
                   "number": "1",
                   "title": "",
-                  "description": "Anlagen sind so anzuordnen, zu errichten, zu ändern, in ihrer Nutzung zu ändern, instand zu halten und zu beseitigen, dass\n1. die öffentliche Sicherheit und Ordnung, insbesondere Leben, Gesundheit und die natürlichen Lebensgrundlagen, nicht gefährdet,\n2. die natürlichen Ressourcen nachhaltig genutzt und der Schutz von Natur und Landschaft angemessen berücksichtigt,\n3. umweltverträgliche Rohstoffe und Sekundärstoffe verwendet und\n4. die Belange der Baukultur berücksichtigt\nwerden, sie die allgemeinen Anforderungen ihrem Zweck entsprechend dauerhaft erfüllen und die Nutzbarkeit für alle Menschen gewährleistet ist; dabei sind die Grundanforderungen an Bauwerke gemäß Anhang I der Verordnung (EU) Nr. 305/2011 des Europäischen Parlaments und des Rates vom 9.",
+                  "description": "Anlagen sind so anzuordnen, zu errichten, zu ändern, in ihrer Nutzung zu ändern, instand zu halten und zu beseitigen, dass\n1. die öffentliche Sicherheit und Ordnung, insbesondere Leben, Gesundheit und die natürlichen Lebensgrundlagen, nicht gefährdet,\n2. die natürlichen Ressourcen nachhaltig genutzt und der Schutz von Natur und Landschaft angemessen berücksichtigt,\n3. umweltverträgliche Rohstoffe und Sekundärstoffe verwendet und\n4. die Belange der Baukultur berücksichtigt\nwerden, sie die allgemeinen Anforderungen ihrem Zweck entsprechend dauerhaft erfüllen und die Nutzbarkeit für alle Menschen gewährleistet ist; dabei sind die Grundanforderungen an Bauwerke gemäß Anhang I der Verordnung (EU) Nr. 305/2011 des Europäischen Parlaments und des Rates vom 9. März 2011 zur Festlegung harmonisierter Bedingungen für die Vermarktung von Bauprodukten und zur Aufhebung der Richtlinie 89/106/EWG des Rates (ABl.",
                   "children": [
                     {
                       "name": "Nr. 1",
@@ -776,21 +776,13 @@
                   "type": "satz",
                   "number": "2",
                   "title": "",
-                  "description": "März 2011 zur Festlegung harmonisierter Bedingungen für die Vermarktung von Bauprodukten und zur Aufhebung der Richtlinie 89/106/EWG des Rates (ABl."
+                  "description": "L 88 vom 4.4.2011, S. 5, L 103 vom 12.4.2013, S. 10, L 92 vom 8.4.2015, S. 118) in der jeweils geltenden Fassung zu beachten."
                 },
                 {
                   "name": "Satz 3",
                   "uri": "https://example.org/eli/de/be/bauo/2005/par_3/abs_1/satz_3",
                   "type": "satz",
                   "number": "3",
-                  "title": "",
-                  "description": "L 88 vom 4.4.2011, S. 5, L 103 vom 12.4.2013, S. 10, L 92 vom 8.4.2015, S. 118) in der jeweils geltenden Fassung zu beachten."
-                },
-                {
-                  "name": "Satz 4",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_3/abs_1/satz_4",
-                  "type": "satz",
-                  "number": "4",
                   "title": "",
                   "description": "Bei der Planung, Errichtung und Änderung baulicher Anlagen sind deren Lebenszyklusphasen zu berücksichtigen und es ist darauf zu achten, dass bei einer Beseitigung der baulichen Anlage oder ihrer Teile die anfallenden Baustoffe und Teile des Bauwerks möglichst wiederverwendet oder recycelt werden können."
                 }
@@ -856,45 +848,13 @@
                   "type": "satz",
                   "number": "2",
                   "title": "",
-                  "description": "Satz 1 gilt nicht bei bestehenden Gebäuden für eine Außenwand- und Dachdämmung, die über die Bauteilanforderungen der Energieeinsparverordnung vom 24."
+                  "description": "Satz 1 gilt nicht bei bestehenden Gebäuden für eine Außenwand- und Dachdämmung, die über die Bauteilanforderungen der Energieeinsparverordnung vom 24. Juli 2007 (BGBl. I S. 1519), die zuletzt durch Artikel 3 der Verordnung vom 24. Oktober 2015 (BGBl. I S. 1789) geändert worden ist, in der jeweils geltenden Fassung, für bestehende Gebäude nicht hinausgeht."
                 },
                 {
                   "name": "Satz 3",
                   "uri": "https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_3",
                   "type": "satz",
                   "number": "3",
-                  "title": "",
-                  "description": "Juli 2007 (BGBl."
-                },
-                {
-                  "name": "Satz 4",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_4",
-                  "type": "satz",
-                  "number": "4",
-                  "title": "",
-                  "description": "I S. 1519), die zuletzt durch Artikel 3 der Verordnung vom 24."
-                },
-                {
-                  "name": "Satz 5",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_5",
-                  "type": "satz",
-                  "number": "5",
-                  "title": "",
-                  "description": "Oktober 2015 (BGBl."
-                },
-                {
-                  "name": "Satz 6",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_6",
-                  "type": "satz",
-                  "number": "6",
-                  "title": "",
-                  "description": "I S. 1789) geändert worden ist, in der jeweils geltenden Fassung, für bestehende Gebäude nicht hinausgeht."
-                },
-                {
-                  "name": "Satz 7",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_4/abs_2/satz_7",
-                  "type": "satz",
-                  "number": "7",
                   "title": "",
                   "description": "Satz 2 gilt entsprechend für die mit der Wärmedämmung zusammenhängenden notwendigen Änderungen von Bauteilen."
                 }
@@ -2662,15 +2622,7 @@
                       "type": "satz",
                       "number": "1",
                       "title": "",
-                      "description": "Bauprodukte, die in Vorschriften anderer Vertragsstaaten des Abkommens vom 2."
-                    },
-                    {
-                      "name": "Satz 2",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_16b/abs_2/satz_2",
-                      "type": "satz",
-                      "number": "2",
-                      "title": "",
-                      "description": "Mai 1992 über den europäischen Wirtschaftsraum genannten technischen Anforderungen entsprechen, dürfen verwendet werden, wenn das geforderte Schutzniveau gemäß § 3 Satz 1 gleichermaßen dauerhaft erreicht wird."
+                      "description": "Bauprodukte, die in Vorschriften anderer Vertragsstaaten des Abkommens vom 2. Mai 1992 über den europäischen Wirtschaftsraum genannten technischen Anforderungen entsprechen, dürfen verwendet werden, wenn das geforderte Schutzniveau gemäß § 3 Satz 1 gleichermaßen dauerhaft erreicht wird."
                     }
                   ]
                 }
@@ -7134,21 +7086,13 @@
                       "type": "satz",
                       "number": "2",
                       "title": "",
-                      "description": "Bestehende Wohnungen sind bis zum 31."
+                      "description": "Bestehende Wohnungen sind bis zum 31. Dezember 2030 mit eigenen Kaltwasserzählern auszustatten."
                     },
                     {
                       "name": "Satz 3",
                       "uri": "https://example.org/eli/de/be/bauo/2005/par_43/abs_3/satz_3",
                       "type": "satz",
                       "number": "3",
-                      "title": "",
-                      "description": "Dezember 2030 mit eigenen Kaltwasserzählern auszustatten."
-                    },
-                    {
-                      "name": "Satz 4",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_43/abs_3/satz_4",
-                      "type": "satz",
-                      "number": "4",
                       "title": "",
                       "description": "Dies gilt nicht, wenn die Anforderung nach Satz 2 nur mit einem unverhältnismäßig hohen Mehraufwand erfüllt werden kann."
                     }
@@ -7194,7 +7138,7 @@
                       "type": "satz",
                       "number": "3",
                       "title": "",
-                      "description": "Niederschlagswasser soll gemäß § 36a des Berliner Wassergesetzes vom 17."
+                      "description": "Niederschlagswasser soll gemäß § 36a des Berliner Wassergesetzes vom 17. Juni 2005 (GVBl."
                     },
                     {
                       "name": "Satz 4",
@@ -7202,29 +7146,13 @@
                       "type": "satz",
                       "number": "4",
                       "title": "",
-                      "description": "Juni 2005 (GVBl."
+                      "description": "S. 357), das zuletzt durch Artikel 11 des Gesetzes vom 11. Dezember 2024 (GVBl."
                     },
                     {
                       "name": "Satz 5",
                       "uri": "https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_5",
                       "type": "satz",
                       "number": "5",
-                      "title": "",
-                      "description": "S. 357), das zuletzt durch Artikel 11 des Gesetzes vom 11."
-                    },
-                    {
-                      "name": "Satz 6",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_6",
-                      "type": "satz",
-                      "number": "6",
-                      "title": "",
-                      "description": "Dezember 2024 (GVBl."
-                    },
-                    {
-                      "name": "Satz 7",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_44/abs_1/satz_7",
-                      "type": "satz",
-                      "number": "7",
                       "title": "",
                       "description": "S. 614) geändert worden ist, in der jeweils geltenden Fassung über die belebte Bodenschicht versickert werden."
                     }
@@ -7650,21 +7578,13 @@
                       "type": "satz",
                       "number": "3",
                       "title": "",
-                      "description": "Bestehende Wohnungen sind bis zum 31."
+                      "description": "Bestehende Wohnungen sind bis zum 31. Dezember 2020 entsprechend auszustatten."
                     },
                     {
                       "name": "Satz 4",
                       "uri": "https://example.org/eli/de/be/bauo/2005/par_48/abs_4/satz_4",
                       "type": "satz",
                       "number": "4",
-                      "title": "",
-                      "description": "Dezember 2020 entsprechend auszustatten."
-                    },
-                    {
-                      "name": "Satz 5",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_48/abs_4/satz_5",
-                      "type": "satz",
-                      "number": "5",
                       "title": "",
                       "description": "Die Sicherstellung der Betriebsbereitschaft obliegt den Mietern oder sonstigen Nutzungsberechtigten, es sei denn, die Eigentümerin oder der Eigentümer übernimmt diese Verpflichtung selbst."
                     }
@@ -8002,21 +7922,13 @@
                       "type": "satz",
                       "number": "5",
                       "title": "",
-                      "description": "Wird ab dem 1."
+                      "description": "Wird ab dem 1. Januar 2025 ein Bauvorhaben gemäß § 62 angezeigt oder ein bauaufsichtliches Verfahren gemäß § 63 oder § 64 beantragt, müssen zusätzlich insgesamt drei Viertel der Wohnungen barrierefrei erreichbar sein und es muss in Gebäuden mit mehr als 100 Wohnungen eine der barrierefrei nutzbaren Wohnungen je 100 Wohnungen rollstuhlgerecht errichtet werden."
                     },
                     {
                       "name": "Satz 6",
                       "uri": "https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_6",
                       "type": "satz",
                       "number": "6",
-                      "title": "",
-                      "description": "Januar 2025 ein Bauvorhaben gemäß § 62 angezeigt oder ein bauaufsichtliches Verfahren gemäß § 63 oder § 64 beantragt, müssen zusätzlich insgesamt drei Viertel der Wohnungen barrierefrei erreichbar sein und es muss in Gebäuden mit mehr als 100 Wohnungen eine der barrierefrei nutzbaren Wohnungen je 100 Wohnungen rollstuhlgerecht errichtet werden."
-                    },
-                    {
-                      "name": "Satz 7",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_7",
-                      "type": "satz",
-                      "number": "7",
                       "title": "",
                       "description": "Die Sätze 1 bis 3 gelten nicht, wenn durch nachträglichen Ausbau des Dachgeschosses, durch Aufstockung um bis zu zwei Geschosse oder durch Teilung von Wohnungen zusätzliche Wohnungen entstehen."
                     }
@@ -9556,7 +9468,7 @@
                       "type": "satz",
                       "number": "3",
                       "title": "",
-                      "description": "Mit der beabsichtigten Anzeige der Beseitigung von Gebäuden mit Wohnraum ist die Genehmigung nach dem Zweckentfremdungsverbot-Gesetz vom 29."
+                      "description": "Mit der beabsichtigten Anzeige der Beseitigung von Gebäuden mit Wohnraum ist die Genehmigung nach dem Zweckentfremdungsverbot-Gesetz vom 29. November 2013 (GVBl."
                     },
                     {
                       "name": "Satz 4",
@@ -9564,7 +9476,7 @@
                       "type": "satz",
                       "number": "4",
                       "title": "",
-                      "description": "November 2013 (GVBl."
+                      "description": "S. 626) in der jeweils geltenden Fassung vorzulegen; die Bauaufsichtsbehörde hat die beabsichtigte Beseitigung der für das Verbot der Zweckentfremdung zuständigen Stelle unverzüglich mitzuteilen."
                     },
                     {
                       "name": "Satz 5",
@@ -9572,7 +9484,7 @@
                       "type": "satz",
                       "number": "5",
                       "title": "",
-                      "description": "S. 626) in der jeweils geltenden Fassung vorzulegen; die Bauaufsichtsbehörde hat die beabsichtigte Beseitigung der für das Verbot der Zweckentfremdung zuständigen Stelle unverzüglich mitzuteilen."
+                      "description": "Bei nicht freistehenden Gebäuden muss die Standsicherheit des Gebäudes oder der Gebäude, an die das zu beseitigende Gebäude angebaut ist, durch einen qualifizierten Tragwerksplaner im Sinn des § 66 Absatz 2 beurteilt und im erforderlichen Umfang überwacht werden; die Beseitigung ist, soweit notwendig, durch den qualifizierten Tragwerksplaner zu überwachen."
                     },
                     {
                       "name": "Satz 6",
@@ -9580,21 +9492,13 @@
                       "type": "satz",
                       "number": "6",
                       "title": "",
-                      "description": "Bei nicht freistehenden Gebäuden muss die Standsicherheit des Gebäudes oder der Gebäude, an die das zu beseitigende Gebäude angebaut ist, durch einen qualifizierten Tragwerksplaner im Sinn des § 66 Absatz 2 beurteilt und im erforderlichen Umfang überwacht werden; die Beseitigung ist, soweit notwendig, durch den qualifizierten Tragwerksplaner zu überwachen."
+                      "description": "Satz 4 gilt nicht, soweit an verfahrensfreie Gebäude angebaut ist."
                     },
                     {
                       "name": "Satz 7",
                       "uri": "https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_7",
                       "type": "satz",
                       "number": "7",
-                      "title": "",
-                      "description": "Satz 4 gilt nicht, soweit an verfahrensfreie Gebäude angebaut ist."
-                    },
-                    {
-                      "name": "Satz 8",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_8",
-                      "type": "satz",
-                      "number": "8",
                       "title": "",
                       "description": "§ 72 Absatz 1 und 2 Nummer 2 gilt entsprechend."
                     }
@@ -9684,7 +9588,7 @@
                       "type": "satz",
                       "number": "3",
                       "title": "",
-                      "description": "Satz 1 gilt nicht für die Errichtung, Änderung oder Nutzungsänderung\n1. eines oder mehrerer Gebäude, wenn dadurch dem Wohnen dienende Nutzungseinheiten mit einer Größe von insgesamt mehr als 2500 Quadratmeter Brutto-Grundfläche geschaffen werden, und\n2. baulicher Anlagen, die öffentlich zugänglich sind, wenn dadurch die gleichzeitige Nutzung durch mehr als 50 zusätzliche Besucher ermöglicht wird,\ndie innerhalb des angemessenen Sicherheitsabstands eines Betriebsbereichs im Sinne des § 3 Absatz 5a des Bundes-Immissionsschutzgesetzes in der Fassung der Bekanntmachung vom 17.",
+                      "description": "Satz 1 gilt nicht für die Errichtung, Änderung oder Nutzungsänderung\n1. eines oder mehrerer Gebäude, wenn dadurch dem Wohnen dienende Nutzungseinheiten mit einer Größe von insgesamt mehr als 2500 Quadratmeter Brutto-Grundfläche geschaffen werden, und\n2. baulicher Anlagen, die öffentlich zugänglich sind, wenn dadurch die gleichzeitige Nutzung durch mehr als 50 zusätzliche Besucher ermöglicht wird,\ndie innerhalb des angemessenen Sicherheitsabstands eines Betriebsbereichs im Sinne des § 3 Absatz 5a des Bundes-Immissionsschutzgesetzes in der Fassung der Bekanntmachung vom 17. Mai 2013 (BGBl. I S. 1274), das zuletzt durch Artikel 3 des Gesetzes vom 18. Juli 2017 (BGBl. I S. 2771) geändert worden ist, in der jeweils geltenden Fassung liegen; ist der angemessene Sicherheitsabstand nicht bekannt, ist maßgeblich, ob sich das Vorhaben innerhalb des Achtungsabstands des Betriebsbereichs befindet.",
                       "children": [
                         {
                           "name": "Nr. 1",
@@ -9703,38 +9607,6 @@
                           "description": "baulicher Anlagen, die öffentlich zugänglich sind, wenn dadurch die gleichzeitige Nutzung durch mehr als 50 zusätzliche Besucher ermöglicht wird,"
                         }
                       ]
-                    },
-                    {
-                      "name": "Satz 4",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_4",
-                      "type": "satz",
-                      "number": "4",
-                      "title": "",
-                      "description": "Mai 2013 (BGBl."
-                    },
-                    {
-                      "name": "Satz 5",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_5",
-                      "type": "satz",
-                      "number": "5",
-                      "title": "",
-                      "description": "I S. 1274), das zuletzt durch Artikel 3 des Gesetzes vom 18."
-                    },
-                    {
-                      "name": "Satz 6",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_6",
-                      "type": "satz",
-                      "number": "6",
-                      "title": "",
-                      "description": "Juli 2017 (BGBl."
-                    },
-                    {
-                      "name": "Satz 7",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_62/abs_1/satz_7",
-                      "type": "satz",
-                      "number": "7",
-                      "title": "",
-                      "description": "I S. 2771) geändert worden ist, in der jeweils geltenden Fassung liegen; ist der angemessene Sicherheitsabstand nicht bekannt, ist maßgeblich, ob sich das Vorhaben innerhalb des Achtungsabstands des Betriebsbereichs befindet."
                     }
                   ]
                 },
@@ -10506,7 +10378,7 @@
                       "type": "satz",
                       "number": "1",
                       "title": "",
-                      "description": "§ 17 des Berufsqualifikationsfeststellungsgesetzes Berlin vom 7."
+                      "description": "§ 17 des Berufsqualifikationsfeststellungsgesetzes Berlin vom 7. Februar 2014 (GVBl."
                     },
                     {
                       "name": "Satz 2",
@@ -10514,29 +10386,13 @@
                       "type": "satz",
                       "number": "2",
                       "title": "",
-                      "description": "Februar 2014 (GVBl."
+                      "description": "S. 39), das zuletzt durch Artikel 1 des Gesetzes vom 17. Mai 2021 (GVBl."
                     },
                     {
                       "name": "Satz 3",
                       "uri": "https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_3",
                       "type": "satz",
                       "number": "3",
-                      "title": "",
-                      "description": "S. 39), das zuletzt durch Artikel 1 des Gesetzes vom 17."
-                    },
-                    {
-                      "name": "Satz 4",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_4",
-                      "type": "satz",
-                      "number": "4",
-                      "title": "",
-                      "description": "Mai 2021 (GVBl."
-                    },
-                    {
-                      "name": "Satz 5",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_65a/abs_5/satz_5",
-                      "type": "satz",
-                      "number": "5",
                       "title": "",
                       "description": "S. 503) geändert worden ist, findet entsprechend Anwendung."
                     }
@@ -13916,7 +13772,7 @@
                       "type": "satz",
                       "number": "2",
                       "title": "",
-                      "description": "Die Unterschrift muss öffentlich beglaubigt oder von einer Vermessungsstelle nach § 2 des Gesetzes über das Vermessungswesen in Berlin in der Fassung vom 9."
+                      "description": "Die Unterschrift muss öffentlich beglaubigt oder von einer Vermessungsstelle nach § 2 des Gesetzes über das Vermessungswesen in Berlin in der Fassung vom 9. Januar 1996 (GVBl."
                     },
                     {
                       "name": "Satz 3",
@@ -13924,29 +13780,13 @@
                       "type": "satz",
                       "number": "3",
                       "title": "",
-                      "description": "Januar 1996 (GVBl."
+                      "description": "S. 56), das zuletzt durch Artikel I des Gesetzes vom 18. Dezember 2004 (GVBl."
                     },
                     {
                       "name": "Satz 4",
                       "uri": "https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_4",
                       "type": "satz",
                       "number": "4",
-                      "title": "",
-                      "description": "S. 56), das zuletzt durch Artikel I des Gesetzes vom 18."
-                    },
-                    {
-                      "name": "Satz 5",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_5",
-                      "type": "satz",
-                      "number": "5",
-                      "title": "",
-                      "description": "Dezember 2004 (GVBl."
-                    },
-                    {
-                      "name": "Satz 6",
-                      "uri": "https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_6",
-                      "type": "satz",
-                      "number": "6",
                       "title": "",
                       "description": "S. 524) geändert worden ist, in der jeweils geltenden Fassung beglaubigt sein, wenn sie nicht vor der Bauaufsichtsbehörde geleistet oder vor ihr anerkannt wird."
                     }
@@ -14648,7 +14488,7 @@
                   "type": "satz",
                   "number": "1",
                   "title": "",
-                  "description": "Die für das Bauwesen zuständige Senatsverwaltung wird ermächtigt, durch Rechtsverordnung zu bestimmen, dass die Anforderungen der auf Grund des § 34 des Produktsicherheitsgesetzes vom 8."
+                  "description": "Die für das Bauwesen zuständige Senatsverwaltung wird ermächtigt, durch Rechtsverordnung zu bestimmen, dass die Anforderungen der auf Grund des § 34 des Produktsicherheitsgesetzes vom 8. November 2011 (BGBl. I S. 2178, 2179; 2012 I S. 131), das durch Artikel 435 der Verordnung vom 31. August 2015 (BGBl. I S. 1474) geändert worden ist, in der jeweils geltenden Fassung und des § 49 Abs. 4 des Energiewirtschaftsgesetzes erlassenen Rechtsverordnungen entsprechend für Anlagen gelten, die weder gewerblichen noch wirtschaftlichen Zwecken dienen und in deren Gefahrenbereich auch keine Arbeitnehmerinnen oder Arbeitnehmer beschäftigt werden."
                 },
                 {
                   "name": "Satz 2",
@@ -14656,45 +14496,13 @@
                   "type": "satz",
                   "number": "2",
                   "title": "",
-                  "description": "November 2011 (BGBl."
+                  "description": "Sie kann auch die Verfahrensvorschriften dieser Verordnungen für anwendbar erklären oder selbst das Verfahren bestimmen sowie Zuständigkeiten und Gebühren regeln."
                 },
                 {
                   "name": "Satz 3",
                   "uri": "https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_3",
                   "type": "satz",
                   "number": "3",
-                  "title": "",
-                  "description": "I S. 2178, 2179; 2012 I S. 131), das durch Artikel 435 der Verordnung vom 31."
-                },
-                {
-                  "name": "Satz 4",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_4",
-                  "type": "satz",
-                  "number": "4",
-                  "title": "",
-                  "description": "August 2015 (BGBl."
-                },
-                {
-                  "name": "Satz 5",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_5",
-                  "type": "satz",
-                  "number": "5",
-                  "title": "",
-                  "description": "I S. 1474) geändert worden ist, in der jeweils geltenden Fassung und des § 49 Abs. 4 des Energiewirtschaftsgesetzes erlassenen Rechtsverordnungen entsprechend für Anlagen gelten, die weder gewerblichen noch wirtschaftlichen Zwecken dienen und in deren Gefahrenbereich auch keine Arbeitnehmerinnen oder Arbeitnehmer beschäftigt werden."
-                },
-                {
-                  "name": "Satz 6",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_6",
-                  "type": "satz",
-                  "number": "6",
-                  "title": "",
-                  "description": "Sie kann auch die Verfahrensvorschriften dieser Verordnungen für anwendbar erklären oder selbst das Verfahren bestimmen sowie Zuständigkeiten und Gebühren regeln."
-                },
-                {
-                  "name": "Satz 7",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_7",
-                  "type": "satz",
-                  "number": "7",
                   "title": "",
                   "description": "Dabei kann sie auch vorschreiben, dass danach zu erteilende Erlaubnisse die Baugenehmigung oder die Zustimmung nach § 77 einschließlich der zugehörigen Abweichungen einschließen und dass § 35 Absatz 2 des Produktsicherheitsgesetzes insoweit Anwendung findet."
                 }
@@ -15252,15 +15060,7 @@
                   "type": "satz",
                   "number": "1",
                   "title": "",
-                  "description": "Die vor dem 1."
-                },
-                {
-                  "name": "Satz 2",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_89/abs_2/satz_2",
-                  "type": "satz",
-                  "number": "2",
-                  "title": "",
-                  "description": "Januar 2017 eingeleiteten Verfahren sind nach den bis zu diesem Zeitpunkt geltenden Vorschriften fortzuführen; die nach diesem Zeitpunkt geltenden Vorschriften sind mit Ausnahme des Fünften Teils jedoch anzuwenden, soweit diese für die Bauherrin oder den Bauherrn günstiger sind."
+                  "description": "Die vor dem 1. Januar 2017 eingeleiteten Verfahren sind nach den bis zu diesem Zeitpunkt geltenden Vorschriften fortzuführen; die nach diesem Zeitpunkt geltenden Vorschriften sind mit Ausnahme des Fünften Teils jedoch anzuwenden, soweit diese für die Bauherrin oder den Bauherrn günstiger sind."
                 }
               ]
             },
@@ -15278,15 +15078,7 @@
                   "type": "satz",
                   "number": "1",
                   "title": "",
-                  "description": "Die vor dem 20."
-                },
-                {
-                  "name": "Satz 2",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_89/abs_3/satz_2",
-                  "type": "satz",
-                  "number": "2",
-                  "title": "",
-                  "description": "April 2018 eingeleiteten Verfahren sind nach den bis zu diesem Zeitpunkt geltenden Vorschriften fortzuführen; die nach diesem Zeitpunkt geltenden Vorschriften sind mit Ausnahme des Fünften Teils jedoch anzuwenden, soweit diese für die Bauherrin oder den Bauherrn günstiger sind."
+                  "description": "Die vor dem 20. April 2018 eingeleiteten Verfahren sind nach den bis zu diesem Zeitpunkt geltenden Vorschriften fortzuführen; die nach diesem Zeitpunkt geltenden Vorschriften sind mit Ausnahme des Fünften Teils jedoch anzuwenden, soweit diese für die Bauherrin oder den Bauherrn günstiger sind."
                 }
               ]
             },
@@ -15304,21 +15096,13 @@
                   "type": "satz",
                   "number": "1",
                   "title": "",
-                  "description": "Die Verwendung des Ü-Zeichens auf Bauprodukten, die die CE-Kennzeichnung auf Grund der Verordnung (EU) Nr. 305/2011 tragen, ist ab dem 20."
+                  "description": "Die Verwendung des Ü-Zeichens auf Bauprodukten, die die CE-Kennzeichnung auf Grund der Verordnung (EU) Nr. 305/2011 tragen, ist ab dem 20. April 2018 nicht mehr zulässig."
                 },
                 {
                   "name": "Satz 2",
                   "uri": "https://example.org/eli/de/be/bauo/2005/par_89/abs_4/satz_2",
                   "type": "satz",
                   "number": "2",
-                  "title": "",
-                  "description": "April 2018 nicht mehr zulässig."
-                },
-                {
-                  "name": "Satz 3",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_89/abs_4/satz_3",
-                  "type": "satz",
-                  "number": "3",
                   "title": "",
                   "description": "Sind bereits in Verkehr gebrachte Bauprodukte, die die CE-Kennzeichnung auf Grund der Verordnung (EU) Nr. 305/2011 tragen, mit dem Ü-Zeichen gekennzeichnet, verliert das Ü-Zeichen ab diesem Zeitpunkt seine Gültigkeit."
                 }
@@ -15338,15 +15122,7 @@
                   "type": "satz",
                   "number": "1",
                   "title": "",
-                  "description": "Bis zum 20."
-                },
-                {
-                  "name": "Satz 2",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_89/abs_5/satz_2",
-                  "type": "satz",
-                  "number": "2",
-                  "title": "",
-                  "description": "April 2018 für Bauarten erteilte allgemeine bauaufsichtliche Zulassungen oder Zustimmungen im Einzelfall gelten als Bauartgenehmigung fort."
+                  "description": "Bis zum 20. April 2018 für Bauarten erteilte allgemeine bauaufsichtliche Zulassungen oder Zustimmungen im Einzelfall gelten als Bauartgenehmigung fort."
                 }
               ]
             },
@@ -15364,21 +15140,13 @@
                   "type": "satz",
                   "number": "1",
                   "title": "",
-                  "description": "Bestehende Anerkennungen als Prüf-, Überwachungs- und Zertifizierungsstehen bleiben in dem bis zum 20."
+                  "description": "Bestehende Anerkennungen als Prüf-, Überwachungs- und Zertifizierungsstehen bleiben in dem bis zum 20. April 2018 geregelten Umfang wirksam."
                 },
                 {
                   "name": "Satz 2",
                   "uri": "https://example.org/eli/de/be/bauo/2005/par_89/abs_6/satz_2",
                   "type": "satz",
                   "number": "2",
-                  "title": "",
-                  "description": "April 2018 geregelten Umfang wirksam."
-                },
-                {
-                  "name": "Satz 3",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_89/abs_6/satz_3",
-                  "type": "satz",
-                  "number": "3",
                   "title": "",
                   "description": "Vor diesem Zeitpunkt gestellte Anträge gelten als Anträge nach diesem Gesetz."
                 }
@@ -15398,7 +15166,7 @@
                   "type": "satz",
                   "number": "1",
                   "title": "",
-                  "description": "Die in der Anlage bestimmten Ausbildungsanforderungen finden keine Anwendung auf Personen, die am 30."
+                  "description": "Die in der Anlage bestimmten Ausbildungsanforderungen finden keine Anwendung auf Personen, die am 30. Dezember 2023 ihr Studium bereits begonnen haben."
                 },
                 {
                   "name": "Satz 2",
@@ -15406,23 +15174,7 @@
                   "type": "satz",
                   "number": "2",
                   "title": "",
-                  "description": "Dezember 2023 ihr Studium bereits begonnen haben."
-                },
-                {
-                  "name": "Satz 3",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_3",
-                  "type": "satz",
-                  "number": "3",
-                  "title": "",
-                  "description": "Für diese Personen gelten die Ausbildungsanforderungen des § 65 in der bis zum 30."
-                },
-                {
-                  "name": "Satz 4",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_4",
-                  "type": "satz",
-                  "number": "4",
-                  "title": "",
-                  "description": "Dezember 2023 geltenden Fassung."
+                  "description": "Für diese Personen gelten die Ausbildungsanforderungen des § 65 in der bis zum 30. Dezember 2023 geltenden Fassung."
                 }
               ]
             },
@@ -15458,23 +15210,7 @@
                   "type": "satz",
                   "number": "1",
                   "title": "",
-                  "description": "Für Bauvorhaben, die vor dem 4."
-                },
-                {
-                  "name": "Satz 2",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_89/abs_9/satz_2",
-                  "type": "satz",
-                  "number": "2",
-                  "title": "",
-                  "description": "Februar 2026 noch nicht fertiggestellt waren, ist § 73 in der ab dem 4."
-                },
-                {
-                  "name": "Satz 3",
-                  "uri": "https://example.org/eli/de/be/bauo/2005/par_89/abs_9/satz_3",
-                  "type": "satz",
-                  "number": "3",
-                  "title": "",
-                  "description": "Februar 2026 geltenden Fassung anzuwenden."
+                  "description": "Für Bauvorhaben, die vor dem 4. Februar 2026 noch nicht fertiggestellt waren, ist § 73 in der ab dem 4. Februar 2026 geltenden Fassung anzuwenden."
                 }
               ]
             }

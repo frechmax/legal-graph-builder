@@ -15,8 +15,8 @@
   <body>
     <main class="layout">
       <header class="hero">
-        <h1>Bauordnung für Berlin </h1>
-        <p>Hierarchie basierend auf ELI (European Legislation Identifier): Teil -> Abschnitt -> Paragraph -> Absatz -> Satz -> Nummer</p>
+        <h1>Bauordnung für Berlin, letzte Änderung: 21.01.2026</h1>
+        <p>basierend auf ELI (European Legislation Identifier): Teil -> Abschnitt -> Paragraph -> Absatz -> Satz -> Nummer</p>
       </header>
 
       <section class="panel">
@@ -25,6 +25,8 @@
           <select id="dataSelect">
             <option value="bauo_be_2005_tree.json">BauO BE 2005</option>
           </select>
+          <button id="collapseAllParagraphsBtn" type="button">Collapse all §</button>
+          <button id="expandAllParagraphsBtn" type="button">Expand all §</button>
         </div>
         <div class="content-grid">
           <div id="chart"></div>

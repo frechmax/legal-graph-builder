@@ -139,6 +139,7 @@ def split_sentences(text: str) -> List[str]:
         "Art.",
         "Buchst.",
         "S.",
+        "BGBl.",
         "z.B.",
         "u.a.",
         "bzw.",
@@ -149,6 +150,14 @@ def split_sentences(text: str) -> List[str]:
     protected = text
     for abbr in abbreviations:
         protected = protected.replace(abbr, abbr.replace(".", dot_token))
+
+    # Protect dates like "24. Juli 2007" from being split after the day.
+    protected = re.sub(
+        r"\b([0-3]?\d)\.\s+(Januar|Februar|März|Maerz|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\b",
+        lambda m: f"{m.group(1)}{dot_token} {m.group(2)}",
+        protected,
+        flags=re.IGNORECASE,
+    )
 
     parts = re.split(r"(?<=[.!?])\s+", protected)
     sentences: List[str] = []
@@ -214,7 +223,7 @@ def build_graph(root: ET.Element) -> List[str]:
             if "TEIL" in upper:
                 part_idx += 1
                 section_idx = 0
-                part_uri = f"{BASE_RES}/teil/{part_idx}"
+                part_uri = f"{BASE_RES}/teil_{part_idx}"
                 make_subdivision(
                     triples=triples,
                     uri=part_uri,
@@ -228,7 +237,7 @@ def build_graph(root: ET.Element) -> List[str]:
             elif "ABSCHNITT" in upper:
                 if not current_part:
                     part_idx += 1
-                    current_part = f"{BASE_RES}/teil/{part_idx}"
+                    current_part = f"{BASE_RES}/teil_{part_idx}"
                     make_subdivision(
                         triples=triples,
                         uri=current_part,
@@ -238,7 +247,7 @@ def build_graph(root: ET.Element) -> List[str]:
                         title=f"Teil {part_idx}",
                     )
                 section_idx += 1
-                section_uri = f"{current_part}/abschnitt/{section_idx}"
+                section_uri = f"{current_part}/abschnitt_{section_idx}"
                 make_subdivision(
                     triples=triples,
                     uri=section_uri,
@@ -250,7 +259,7 @@ def build_graph(root: ET.Element) -> List[str]:
                 current_section = section_uri
             else:
                 part_idx += 1
-                other_uri = f"{BASE_RES}/gliederung/{part_idx}-{slug(gbez)}"
+                other_uri = f"{BASE_RES}/gliederung_{part_idx}-{slug(gbez)}"
                 make_subdivision(
                     triples=triples,
                     uri=other_uri,

@@ -1,8 +1,11 @@
 const chartEl = document.getElementById("chart");
 const dataSelect = document.getElementById("dataSelect");
 const detailsBodyEl = document.getElementById("detailsBody");
+const collapseAllParagraphsBtn = document.getElementById("collapseAllParagraphsBtn");
+const expandAllParagraphsBtn = document.getElementById("expandAllParagraphsBtn");
 let fullTreeData = null;
 let currentFilterUri = "";
+let currentSelectedUri = "";
 
 const palette = {
   legalresource: "#0b4f6c",
@@ -43,6 +46,50 @@ function renderDetails(nodeData) {
           .replaceAll(">", "&gt;")}</dd></dl>`
     )
     .join("");
+
+  const navContainer = document.createElement("div");
+  navContainer.className = "details-nav";
+
+  const previousNode = getAdjacentNode(-1);
+  const nextNode = getAdjacentNode(1);
+
+  const previousButton = document.createElement("button");
+  previousButton.type = "button";
+  previousButton.textContent = "Vorheriger";
+  previousButton.disabled = !previousNode;
+  if (previousNode) {
+    previousButton.addEventListener("click", () => {
+      currentSelectedUri = previousNode.uri;
+      renderCurrentSelection(previousNode.uri);
+    });
+  }
+
+  const nextButton = document.createElement("button");
+  nextButton.type = "button";
+  nextButton.textContent = "Naechster";
+  nextButton.disabled = !nextNode;
+  if (nextNode) {
+    nextButton.addEventListener("click", () => {
+      currentSelectedUri = nextNode.uri;
+      renderCurrentSelection(nextNode.uri);
+    });
+  }
+
+  navContainer.append(previousButton, nextButton);
+  detailsBodyEl.append(navContainer);
+}
+
+function walkTreeAll(node, visitor) {
+  if (!node) {
+    return;
+  }
+  visitor(node);
+  for (const child of node.children || []) {
+    walkTreeAll(child, visitor);
+  }
+  for (const child of node._children || []) {
+    walkTreeAll(child, visitor);
+  }
 }
 
 function findNodeByUri(tree, uri) {
@@ -104,6 +151,27 @@ function canToggleNode(nodeData) {
   return visibleChildren > 0 || hiddenChildren > 0;
 }
 
+function setParagraphsExpanded(treeRoot, expanded) {
+  if (!treeRoot) {
+    return;
+  }
+  walkTreeAll(treeRoot, (node) => {
+    if (node.type !== "paragraph") {
+      return;
+    }
+    const children = Array.isArray(node.children) ? node.children : [];
+    const hiddenChildren = Array.isArray(node._children) ? node._children : [];
+    if (expanded && hiddenChildren.length) {
+      node.children = hiddenChildren;
+      node._children = [];
+    }
+    if (!expanded && children.length) {
+      node._children = children;
+      node.children = [];
+    }
+  });
+}
+
 function populateDataSelect(treeData) {
   dataSelect.innerHTML = "";
 
@@ -149,6 +217,31 @@ function getFilteredTreeRoot() {
     return null;
   }
   return findNodeByUri(fullTreeData, currentFilterUri) || fullTreeData;
+}
+
+function getNodeSequence(treeRoot) {
+  const sequence = [];
+  walkTreeAll(treeRoot, (node) => sequence.push(node));
+  return sequence;
+}
+
+function getAdjacentNode(direction) {
+  const filteredRoot = getFilteredTreeRoot();
+  if (!filteredRoot) {
+    return null;
+  }
+  const nodes = getNodeSequence(filteredRoot);
+  if (!nodes.length) {
+    return null;
+  }
+  const selectedUri = currentSelectedUri || filteredRoot.uri;
+  const currentIndex = nodes.findIndex((node) => node.uri === selectedUri);
+  const safeIndex = currentIndex >= 0 ? currentIndex : 0;
+  const targetIndex = safeIndex + direction;
+  if (targetIndex < 0 || targetIndex >= nodes.length) {
+    return null;
+  }
+  return nodes[targetIndex];
 }
 
 async function loadTree(dataFile) {
@@ -229,11 +322,13 @@ function renderTree(data, selectedUri) {
         toggleNodeByUri(data, targetUri);
       }
       const selected = findNodeByUri(data, targetUri);
+      currentSelectedUri = targetUri;
       renderDetails(selected);
       renderTree(data, targetUri);
     });
 
   const selectedNode = selectedUri ? findNodeByUri(data, selectedUri) : data;
+  currentSelectedUri = (selectedNode && selectedNode.uri) || data.uri;
   renderDetails(selectedNode);
 }
 
@@ -245,6 +340,7 @@ function renderCurrentSelection(selectedUri) {
 
   const selectedInFiltered = selectedUri && findNodeByUri(filteredRoot, selectedUri);
   const effectiveSelectedUri = selectedInFiltered ? selectedUri : filteredRoot.uri;
+  currentSelectedUri = effectiveSelectedUri;
   renderTree(filteredRoot, effectiveSelectedUri);
 }
 
@@ -252,6 +348,7 @@ async function init() {
   try {
     fullTreeData = await loadTree(dataSelect.value);
     currentFilterUri = fullTreeData.uri;
+    currentSelectedUri = fullTreeData.uri;
     populateDataSelect(fullTreeData);
     renderCurrentSelection(fullTreeData.uri);
   } catch (err) {
@@ -264,6 +361,24 @@ async function init() {
     }
     currentFilterUri = dataSelect.value;
     renderCurrentSelection(currentFilterUri);
+  });
+
+  collapseAllParagraphsBtn.addEventListener("click", () => {
+    const filteredRoot = getFilteredTreeRoot();
+    if (!filteredRoot) {
+      return;
+    }
+    setParagraphsExpanded(filteredRoot, false);
+    renderCurrentSelection(currentSelectedUri || filteredRoot.uri);
+  });
+
+  expandAllParagraphsBtn.addEventListener("click", () => {
+    const filteredRoot = getFilteredTreeRoot();
+    if (!filteredRoot) {
+      return;
+    }
+    setParagraphsExpanded(filteredRoot, true);
+    renderCurrentSelection(currentSelectedUri || filteredRoot.uri);
   });
 }
 
