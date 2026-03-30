@@ -23,7 +23,7 @@ jobs:
       - name: Prepare deployment directory
         run: |
           mkdir -p _site
-          cp index.html _site/
+          cp radial_tidy_tree/index.html _site/
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
