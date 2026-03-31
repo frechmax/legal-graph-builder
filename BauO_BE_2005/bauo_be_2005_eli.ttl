@@ -18,21 +18,21 @@
     eli:number "BauO Bln" ;
     eli:title "Bauordnung für Berlin (BauO Bln) Stand: 21.01.2026"@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/1> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_1> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:teil ;
     eli:number "ERSTER TEIL" ;
     eli:is_part_of <https://example.org/eli/de/be/bauo/2005> .
 
-<https://example.org/eli/de/be/bauo/2005> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/1> .
+<https://example.org/eli/de/be/bauo/2005> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_1> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/1> eli:title "Allgemeine Vorschriften"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_1> eli:title "Allgemeine Vorschriften"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_1> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "1" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/1> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_1> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_1> .
+<https://example.org/eli/de/be/bauo/2005/teil_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_1> .
 
 <https://example.org/eli/de/be/bauo/2005/par_1> eli:title "Anwendungsbereich"@de .
 
@@ -147,9 +147,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_2> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "2" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/1> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_1> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_2> .
+<https://example.org/eli/de/be/bauo/2005/teil_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_2> .
 
 <https://example.org/eli/de/be/bauo/2005/par_2> eli:title "Begriffe"@de .
 
@@ -768,9 +768,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_3> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "3" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/1> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_1> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_3> .
+<https://example.org/eli/de/be/bauo/2005/teil_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_3> .
 
 <https://example.org/eli/de/be/bauo/2005/par_3> eli:title "Allgemeine Anforderungen"@de .
 
@@ -846,21 +846,21 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_3/abs_1> eli:description "Anlagen sind so anzuordnen, zu errichten, zu ändern, in ihrer Nutzung zu ändern, instand zu halten und zu beseitigen, dass\n1. die öffentliche Sicherheit und Ordnung, insbesondere Leben, Gesundheit und die natürlichen Lebensgrundlagen, nicht gefährdet,\n2. die natürlichen Ressourcen nachhaltig genutzt und der Schutz von Natur und Landschaft angemessen berücksichtigt,\n3. umweltverträgliche Rohstoffe und Sekundärstoffe verwendet und\n4. die Belange der Baukultur berücksichtigt\nwerden, sie die allgemeinen Anforderungen ihrem Zweck entsprechend dauerhaft erfüllen und die Nutzbarkeit für alle Menschen gewährleistet ist; dabei sind die Grundanforderungen an Bauwerke gemäß Anhang I der Verordnung (EU) Nr. 305/2011 des Europäischen Parlaments und des Rates vom 9. März 2011 zur Festlegung harmonisierter Bedingungen für die Vermarktung von Bauprodukten und zur Aufhebung der Richtlinie 89/106/EWG des Rates (ABl. L 88 vom 4.4.2011, S. 5, L 103 vom 12.4.2013, S. 10, L 92 vom 8.4.2015, S. 118) in der jeweils geltenden Fassung zu beachten. Bei der Planung, Errichtung und Änderung baulicher Anlagen sind deren Lebenszyklusphasen zu berücksichtigen und es ist darauf zu achten, dass bei einer Beseitigung der baulichen Anlage oder ihrer Teile die anfallenden Baustoffe und Teile des Bauwerks möglichst wiederverwendet oder recycelt werden können."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/2> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_2> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:teil ;
     eli:number "ZWEITER TEIL" ;
     eli:is_part_of <https://example.org/eli/de/be/bauo/2005> .
 
-<https://example.org/eli/de/be/bauo/2005> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/2> .
+<https://example.org/eli/de/be/bauo/2005> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/2> eli:title "Das Grundstück und seine Bebauung"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_2> eli:title "Das Grundstück und seine Bebauung"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_4> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "4" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_4> .
+<https://example.org/eli/de/be/bauo/2005/teil_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_4> .
 
 <https://example.org/eli/de/be/bauo/2005/par_4> eli:title "Bebauung der Grundstücke mit Gebäuden"@de .
 
@@ -921,9 +921,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_5> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "5" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_5> .
+<https://example.org/eli/de/be/bauo/2005/teil_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_5> .
 
 <https://example.org/eli/de/be/bauo/2005/par_5> eli:title "Zugänge und Zufahrten auf den Grundstücken"@de .
 
@@ -1002,9 +1002,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_6> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "6" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_6> .
+<https://example.org/eli/de/be/bauo/2005/teil_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_6> .
 
 <https://example.org/eli/de/be/bauo/2005/par_6> eli:title "Abstandsflächen, Abstände"@de .
 
@@ -1497,9 +1497,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_6a> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "6a" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_6a> .
+<https://example.org/eli/de/be/bauo/2005/teil_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_6a> .
 
 <https://example.org/eli/de/be/bauo/2005/par_6a> eli:title "Abstandsflächen, Abstände für Lauben in Kleingärten"@de .
 
@@ -1569,9 +1569,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_7> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "7" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_7> .
+<https://example.org/eli/de/be/bauo/2005/teil_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_7> .
 
 <https://example.org/eli/de/be/bauo/2005/par_7> eli:title "Teilung von Grundstücken"@de .
 
@@ -1605,9 +1605,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_8> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "8" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_8> .
+<https://example.org/eli/de/be/bauo/2005/teil_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_8> .
 
 <https://example.org/eli/de/be/bauo/2005/par_8> eli:title "Nicht überbaute Flächen der bebauten Grundstücke, Dachbegrünung, Kinderspielplätze"@de .
 
@@ -1764,30 +1764,30 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_8/abs_3> eli:description "Kann die Bauherrin oder der Bauherr den Kinderspielplatz nicht oder nur unter sehr großen Schwierigkeiten auf dem Baugrundstück herstellen, so kann die Bauaufsichtsbehörde durch öffentlich-rechtlichen Vertrag mit der Bauherrin oder dem Bauherrn vereinbaren, dass die Bauherrin oder der Bauherr ihre oder seine Verpflichtung nach Absatz 2 durch Zahlung eines Geldbetrags an das Land Berlin erfüllt. Der Geldbetrag soll den durchschnittlichen Herstellungs- und Instandhaltungskosten eines Kinderspielplatzes einschließlich der Kosten des Grunderwerbs entsprechen. Der Geldbetrag ist ausschließlich für die Herstellung, Erweiterung oder Instandhaltung eines der Allgemeinheit zugänglichen Kinderspielplatzes in der Nähe des Baugrundstücks zu verwenden."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_3> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:teil ;
     eli:number "DRITTER TEIL" ;
     eli:is_part_of <https://example.org/eli/de/be/bauo/2005> .
 
-<https://example.org/eli/de/be/bauo/2005> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/3> .
+<https://example.org/eli/de/be/bauo/2005> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3> eli:title "Bauliche Anlagen"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_3> eli:title "Bauliche Anlagen"@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/1> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_1> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:abschnitt ;
     eli:number "Erster Abschnitt" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/1> .
+<https://example.org/eli/de/be/bauo/2005/teil_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_1> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/1> eli:title "Gestaltung"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_1> eli:title "Gestaltung"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_9> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "9" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/1> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_1> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_9> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_9> .
 
 <https://example.org/eli/de/be/bauo/2005/par_9> eli:title "Gestaltung"@de .
 
@@ -1875,9 +1875,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_10> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "10" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/1> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_1> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_10> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_10> .
 
 <https://example.org/eli/de/be/bauo/2005/par_10> eli:title "Anlagen der Außenwerbung, Warenautomaten"@de .
 
@@ -2142,21 +2142,21 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_10/abs_6> eli:description "Die Vorschriften dieses Gesetzes sind nicht anzuwenden auf\n1. Anschläge und Lichtwerbung an dafür genehmigten Säulen, Tafeln und Flächen,\n2. Werbemittel an Zeitungsverkaufsstellen und Zeitschriftenverkaufsstellen,\n3. Auslagen und Dekorationen in Fenstern und Schaukästen,\n4. Wahlwerbung für die Dauer eines Wahlkampfes."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:abschnitt ;
     eli:number "Zweiter Abschnitt" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> .
+<https://example.org/eli/de/be/bauo/2005/teil_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> eli:title "Allgemeine Anforderungen an die Bauausführung"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> eli:title "Allgemeine Anforderungen an die Bauausführung"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_11> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "11" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_11> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_11> .
 
 <https://example.org/eli/de/be/bauo/2005/par_11> eli:title "Baustelle"@de .
 
@@ -2244,9 +2244,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_12> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "12" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_12> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_12> .
 
 <https://example.org/eli/de/be/bauo/2005/par_12> eli:title "Standsicherheit"@de .
 
@@ -2298,9 +2298,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_13> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "13" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_13> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_13> .
 
 <https://example.org/eli/de/be/bauo/2005/par_13> eli:title "Schutz gegen schädliche Einflüsse"@de .
 
@@ -2334,9 +2334,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_14> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "14" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_14> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_14> .
 
 <https://example.org/eli/de/be/bauo/2005/par_14> eli:title "Brandschutz"@de .
 
@@ -2361,9 +2361,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_15> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "15" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_15> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_15> .
 
 <https://example.org/eli/de/be/bauo/2005/par_15> eli:title "Wärme-, Schall-, Erschütterungsschutz"@de .
 
@@ -2433,9 +2433,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_16> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "16" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_16> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_16> .
 
 <https://example.org/eli/de/be/bauo/2005/par_16> eli:title "Verkehrssicherheit"@de .
 
@@ -2478,9 +2478,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_16a> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "16a" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_16a> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_16a> .
 
 <https://example.org/eli/de/be/bauo/2005/par_16a> eli:title "Bauarten"@de .
 
@@ -2673,21 +2673,21 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_16a/abs_7> eli:description "Für Bauarten, die einer außergewöhnlichen Sorgfalt bei Ausführung oder Instandhaltung bedürfen, kann in der Bauartgenehmigung oder durch Rechtsverordnung der für das Bauwesen zuständigen Senatsverwaltung die Überwachung dieser Tätigkeiten durch eine Überwachungsstelle nach § 24 Satz 1 Nummer 5 vorgeschrieben werden."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:abschnitt ;
     eli:number "Dritter Abschnitt" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> .
+<https://example.org/eli/de/be/bauo/2005/teil_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> eli:title "Bauprodukte"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> eli:title "Bauprodukte"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_16b> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "16b" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_16b> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_16b> .
 
 <https://example.org/eli/de/be/bauo/2005/par_16b> eli:title "Allgemeine Anforderungen für die Verwendung von Bauprodukten"@de .
 
@@ -2730,9 +2730,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_16c> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "16c" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_16c> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_16c> .
 
 <https://example.org/eli/de/be/bauo/2005/par_16c> eli:title "Anforderungen für die Verwendung von CE-gekennzeichneten Bauprodukten"@de .
 
@@ -2766,9 +2766,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_17> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "17" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_17> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_17> .
 
 <https://example.org/eli/de/be/bauo/2005/par_17> eli:title "Verwendbarkeitsnachweise"@de .
 
@@ -2874,9 +2874,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_18> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "18" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_18> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_18> .
 
 <https://example.org/eli/de/be/bauo/2005/par_18> eli:title "Allgemeine bauaufsichtliche Zulassung"@de .
 
@@ -3045,9 +3045,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_19> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "19" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_19> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_19> .
 
 <https://example.org/eli/de/be/bauo/2005/par_19> eli:title "Allgemeines bauaufsichtliches Prüfzeugnis"@de .
 
@@ -3117,9 +3117,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_20> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "20" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_20> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_20> .
 
 <https://example.org/eli/de/be/bauo/2005/par_20> eli:title "Nachweis der Verwendbarkeit von Bauprodukten im Einzelfall"@de .
 
@@ -3153,9 +3153,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_21> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "21" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_21> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_21> .
 
 <https://example.org/eli/de/be/bauo/2005/par_21> eli:title "Übereinstimmungsbestätigung"@de .
 
@@ -3259,9 +3259,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_22> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "22" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_22> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_22> .
 
 <https://example.org/eli/de/be/bauo/2005/par_22> eli:title "Übereinstimmungserklärung der Herstellerin oder des Herstellers"@de .
 
@@ -3358,9 +3358,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_23> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "23" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_23> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_23> .
 
 <https://example.org/eli/de/be/bauo/2005/par_23> eli:title "Zertifizierung"@de .
 
@@ -3430,9 +3430,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_24> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "24" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_24> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_24> .
 
 <https://example.org/eli/de/be/bauo/2005/par_24> eli:title "Prüf-, Zertifizierungs- und Überwachungsstellen"@de .
 
@@ -3529,9 +3529,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_25> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "25" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_25> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_25> .
 
 <https://example.org/eli/de/be/bauo/2005/par_25> eli:title "Besondere Sachkunde- und Sorgfaltsanforderungen"@de .
 
@@ -3580,21 +3580,21 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_25/abs_2> eli:description "Für Bauprodukte, die wegen ihrer besonderen Eigenschaften oder ihres besonderen Verwendungszwecks einer außergewöhnlichen Sorgfalt bei Einbau, Transport, Instandhaltung oder Reinigung bedürfen, kann in der allgemeinen bauaufsichtlichen Zulassung, in der Zustimmung im Einzelfall oder durch Rechtsverordnung der obersten Bauaufsichtsbehörde die Überwachung dieser Tätigkeiten durch eine Überwachungsstelle nach § 24 Satz 1 Nummer 5 vorgeschrieben werden, soweit diese Tätigkeiten nicht bereits durch die Verordnung (EU) Nr. 305/2011 erfasst sind."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:abschnitt ;
     eli:number "Vierter Abschnitt" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> .
+<https://example.org/eli/de/be/bauo/2005/teil_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> eli:title "Brandverhalten von Baustoffen und Bauteilen; Wände, Decken, Dächer"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> eli:title "Brandverhalten von Baustoffen und Bauteilen; Wände, Decken, Dächer"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_26> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "26" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_26> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_26> .
 
 <https://example.org/eli/de/be/bauo/2005/par_26> eli:title "Allgemeine Anforderungen an das Brandverhalten von Baustoffen und Bauteilen"@de .
 
@@ -3799,9 +3799,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_27> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "27" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_27> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_27> .
 
 <https://example.org/eli/de/be/bauo/2005/par_27> eli:title "Tragende Wände, Stützen"@de .
 
@@ -3925,9 +3925,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_28> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "28" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_28> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_28> .
 
 <https://example.org/eli/de/be/bauo/2005/par_28> eli:title "Außenwände"@de .
 
@@ -4096,9 +4096,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_29> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "29" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_29> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_29> .
 
 <https://example.org/eli/de/be/bauo/2005/par_29> eli:title "Trennwände"@de .
 
@@ -4249,9 +4249,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_30> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "30" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_30> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_30> .
 
 <https://example.org/eli/de/be/bauo/2005/par_30> eli:title "Brandwände"@de .
 
@@ -4645,9 +4645,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_31> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "31" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_31> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_31> .
 
 <https://example.org/eli/de/be/bauo/2005/par_31> eli:title "Decken"@de .
 
@@ -4861,9 +4861,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_32> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "32" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_32> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_32> .
 
 <https://example.org/eli/de/be/bauo/2005/par_32> eli:title "Dächer"@de .
 
@@ -5209,21 +5209,21 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_32/abs_8> eli:description "Soweit geneigte Dächer an Verkehrsflächen angrenzen, müssen sie Vorrichtungen zum Schutz gegen das Herabfallen von Schnee und Eis haben. Für vom Dach aus vorzunehmende Arbeiten sind sicher benutzbare Vorrichtungen anzubringen."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:abschnitt ;
     eli:number "Fünfter Abschnitt" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> .
+<https://example.org/eli/de/be/bauo/2005/teil_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> eli:title "Rettungswege, Öffnungen, Umwehrungen"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> eli:title "Rettungswege, Öffnungen, Umwehrungen"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_33> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "33" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_33> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_33> .
 
 <https://example.org/eli/de/be/bauo/2005/par_33> eli:title "Erster und zweiter Rettungsweg"@de .
 
@@ -5311,9 +5311,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_34> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "34" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_34> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_34> .
 
 <https://example.org/eli/de/be/bauo/2005/par_34> eli:title "Treppen"@de .
 
@@ -5536,9 +5536,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_35> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "35" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_35> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_35> .
 
 <https://example.org/eli/de/be/bauo/2005/par_35> eli:title "Notwendige Treppenräume, Ausgänge"@de .
 
@@ -5959,9 +5959,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_36> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "36" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_36> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_36> .
 
 <https://example.org/eli/de/be/bauo/2005/par_36> eli:title "Notwendige Flure, offene Gänge"@de .
 
@@ -6220,9 +6220,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_37> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "37" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_37> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_37> .
 
 <https://example.org/eli/de/be/bauo/2005/par_37> eli:title "Fenster, Türen, sonstige Öffnungen"@de .
 
@@ -6346,9 +6346,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_38> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "38" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_38> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_38> .
 
 <https://example.org/eli/de/be/bauo/2005/par_38> eli:title "Umwehrungen"@de .
 
@@ -6568,21 +6568,21 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_38/abs_5> eli:description "In, an und auf Gebäuden dürfen Öffnungen in Geländern, Brüstungen und anderen Umwehrungen mindestens in einer Richtung nicht breiter als 0,12 m sein. Sie sind so auszubilden, dass das Überklettern erschwert wird. Ein waagerechter Zwischenraum zwischen Umwehrung und der zu sichernden Fläche darf nicht größer als 0,04 m sein."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:abschnitt ;
     eli:number "Sechster Abschnitt" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> .
+<https://example.org/eli/de/be/bauo/2005/teil_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> eli:title "Technische Gebäudeausrüstung"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> eli:title "Technische Gebäudeausrüstung"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_39> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "39" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_39> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_39> .
 
 <https://example.org/eli/de/be/bauo/2005/par_39> eli:title "Aufzüge"@de .
 
@@ -6850,9 +6850,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_40> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "40" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_40> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_40> .
 
 <https://example.org/eli/de/be/bauo/2005/par_40> eli:title "Leitungsanlagen, Installationsschächte und -kanäle"@de .
 
@@ -6940,9 +6940,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_41> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "41" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_41> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_41> .
 
 <https://example.org/eli/de/be/bauo/2005/par_41> eli:title "Lüftungsanlagen"@de .
 
@@ -7111,9 +7111,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_42> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "42" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_42> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_42> .
 
 <https://example.org/eli/de/be/bauo/2005/par_42> eli:title "Feuerungsanlagen, sonstige Anlagen zur Wärmeerzeugung, Brennstoffversorgung"@de .
 
@@ -7237,9 +7237,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_43> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "43" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_43> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_43> .
 
 <https://example.org/eli/de/be/bauo/2005/par_43> eli:title "Sanitäre Anlagen, Wasserzähler"@de .
 
@@ -7318,9 +7318,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_44> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "44" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_44> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_44> .
 
 <https://example.org/eli/de/be/bauo/2005/par_44> eli:title "Anlagen für Abwasser"@de .
 
@@ -7435,9 +7435,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_45> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "45" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_45> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_45> .
 
 <https://example.org/eli/de/be/bauo/2005/par_45> eli:title "Aufbewahrung fester Abfallstoffe, Abfallschächte"@de .
 
@@ -7543,9 +7543,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_46> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "46" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_46> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_46> .
 
 <https://example.org/eli/de/be/bauo/2005/par_46> eli:title "Blitzschutzanlagen"@de .
 
@@ -7567,21 +7567,21 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_46/abs_1> eli:description "Bauliche Anlagen, bei denen nach Lage, Bauart oder Nutzung Blitzschlag leicht eintreten oder zu schweren Folgen führen kann, sind mit dauernd wirksamen Blitzschutzanlagen zu versehen."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/7> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_7> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:abschnitt ;
     eli:number "Siebenter Abschnitt" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/7> .
+<https://example.org/eli/de/be/bauo/2005/teil_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_7> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/7> eli:title "Nutzungsbedingte Anforderungen"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_7> eli:title "Nutzungsbedingte Anforderungen"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_47> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "47" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/7> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_7> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/7> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_47> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_7> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_47> .
 
 <https://example.org/eli/de/be/bauo/2005/par_47> eli:title "Aufenthaltsräume"@de .
 
@@ -7660,9 +7660,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_48> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "48" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/7> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_7> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/7> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_48> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_7> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_48> .
 
 <https://example.org/eli/de/be/bauo/2005/par_48> eli:title "Wohnungen"@de .
 
@@ -7939,9 +7939,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_49> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "49" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/7> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_7> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/7> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_49> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_7> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_49> .
 
 <https://example.org/eli/de/be/bauo/2005/par_49> eli:title "Stellplätze, Abstellplätze für Fahrräder"@de .
 
@@ -8074,9 +8074,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_50> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "50" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/7> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_7> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/7> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_50> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_7> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_50> .
 
 <https://example.org/eli/de/be/bauo/2005/par_50> eli:title "Barrierefreies Bauen"@de .
 
@@ -8470,9 +8470,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_51> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "51" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/7> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_7> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/3/abschnitt/7> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_51> .
+<https://example.org/eli/de/be/bauo/2005/teil_3/abschnitt_7> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_51> .
 
 <https://example.org/eli/de/be/bauo/2005/par_51> eli:title "Sonderbauten und Garagen"@de .
 
@@ -8728,21 +8728,21 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_51/abs_1> eli:description "An Sonderbauten und Garagen können im Einzelfall zur Verwirklichung der allgemeinen Anforderungen nach § 3 Satz 1 besondere Anforderungen gestellt werden. Erleichterungen können gestattet werden, soweit es der Einhaltung von Vorschriften wegen der besonderen Art oder Nutzung baulicher Anlagen oder Räume oder wegen besonderer Anforderungen nicht bedarf. Die Anforderungen und Erleichterungen nach den Sätzen 1 und 2 können sich insbesondere erstrecken auf\n1. die Anordnung der baulichen Anlagen auf dem Grundstück,\n2. die Abstände von Nachbargrenzen, von anderen baulichen Anlagen auf dem Grundstück und von öffentlichen Verkehrsflächen sowie auf die Größe der freizuhaltenden Flächen der Grundstücke,\n3. die Öffnungen zu öffentlichen Verkehrsflächen und zu angrenzenden Grundstücken,\n4. die Anlage von Zu- und Abfahrten,\n5. die Anlage von Grünstreifen, Baumpflanzungen und anderen Pflanzungen sowie die Begrünung oder Beseitigung von Halden und Gruben,\n6. die Bauart und Anordnung aller für die Stand- und Verkehrssicherheit, den Brand-, Wärme-, Schall- oder Gesundheitsschutz wesentlichen Bauteile und die Verwendung von Baustoffen,\n7. Brandschutzanlagen, -einrichtungen und -vorkehrungen,\n8. die Löschwasserrückhaltung,\n9. die Anordnung und Herstellung von Aufzügen, Treppen, Treppenräumen, Fluren, Ausgängen und sonstigen Rettungswegen,\n10. die Beleuchtung und Energieversorgung,\n11. die Lüftung und Rauchableitung,\n12. die Feuerungsanlagen und Heizräume,\n13. die Wasserversorgung,\n14. die Aufbewahrung und Entsorgung von Abwasser und festen Abfallstoffen,\n15. die Stellplätze und Garagen,\n16. die barrierefreie Nutzbarkeit,\n17. die zulässige Zahl der Benutzerinnen und Benutzer, Anordnung und Zahl der zulässigen Sitz- und Stehplätze bei Versammlungsstätten, Tribünen und Fliegenden Bauten,\n18. die Zahl der Toiletten für Besucherinnen und Besucher,\n19. Umfang, Inhalt und Zahl besonderer Bauvorlagen, insbesondere eines Brandschutzkonzepts,\n20. weitere zu erbringende Unterlagen und Bescheinigungen,\n21. die Bestellung und Qualifikation der Bauleiterin oder des Bauleiters und der Fachbauleiterinnen und Fachbauleiter,\n22. den Betrieb und die Nutzung einschließlich der Bestellung und der Qualifikation einer oder eines Brandschutzbeauftragten,\n23. Erst-, Wiederholungs- und Nachprüfungen und die Bescheinigungen, die hierüber zu erbringen sind.\nErleichterungen von Satz 3 Nummer 16 dürfen nur unter den Voraussetzungen des § 50 Absatz 6 gestattet werden."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/4> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_4> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:teil ;
     eli:number "VIERTER TEIL" ;
     eli:is_part_of <https://example.org/eli/de/be/bauo/2005> .
 
-<https://example.org/eli/de/be/bauo/2005> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/4> .
+<https://example.org/eli/de/be/bauo/2005> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/4> eli:title "Die am Bau Beteiligten"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_4> eli:title "Die am Bau Beteiligten"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_52> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "52" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_52> .
+<https://example.org/eli/de/be/bauo/2005/teil_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_52> .
 
 <https://example.org/eli/de/be/bauo/2005/par_52> eli:title "Grundpflichten"@de .
 
@@ -8767,9 +8767,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_53> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "53" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_53> .
+<https://example.org/eli/de/be/bauo/2005/teil_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_53> .
 
 <https://example.org/eli/de/be/bauo/2005/par_53> eli:title "Bauherrin oder Bauherr"@de .
 
@@ -8875,9 +8875,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_54> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "54" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_54> .
+<https://example.org/eli/de/be/bauo/2005/teil_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_54> .
 
 <https://example.org/eli/de/be/bauo/2005/par_54> eli:title "Entwurfsverfasserin oder Entwurfsverfasser"@de .
 
@@ -8956,9 +8956,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_55> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "55" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_55> .
+<https://example.org/eli/de/be/bauo/2005/teil_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_55> .
 
 <https://example.org/eli/de/be/bauo/2005/par_55> eli:title "Unternehmerin oder Unternehmer"@de .
 
@@ -9028,9 +9028,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_56> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "56" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_56> .
+<https://example.org/eli/de/be/bauo/2005/teil_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_56> .
 
 <https://example.org/eli/de/be/bauo/2005/par_56> eli:title "Bauleiterin oder Bauleiter"@de .
 
@@ -9115,30 +9115,30 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_56/abs_2> eli:description "Die Bauleiterin oder der Bauleiter muss über die für ihre oder seine Aufgabe erforderliche Sachkunde und Erfahrung verfügen. Verfügt sie oder er auf einzelnen Teilgebieten nicht über die erforderliche Sachkunde, so sind geeignete Fachbauleiterinnen oder Fachbauleiter heranzuziehen. Diese treten insoweit an die Stelle der Bauleiterin oder des Bauleiters. Die Bauleiterin oder der Bauleiter hat die Tätigkeit der Fachbauleiterinnen oder Fachbauleiter und ihre oder seine Tätigkeit aufeinander abzustimmen."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_5> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:teil ;
     eli:number "FÜNFTER TEIL" ;
     eli:is_part_of <https://example.org/eli/de/be/bauo/2005> .
 
-<https://example.org/eli/de/be/bauo/2005> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/5> .
+<https://example.org/eli/de/be/bauo/2005> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5> eli:title "Bauaufsichtsbehörden, Verfahren"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_5> eli:title "Bauaufsichtsbehörden, Verfahren"@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/1> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_1> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:abschnitt ;
     eli:number "Erster Abschnitt" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/1> .
+<https://example.org/eli/de/be/bauo/2005/teil_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_1> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/1> eli:title "Bauaufsichtsbehörden"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_1> eli:title "Bauaufsichtsbehörden"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_57> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "57" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/1> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_1> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_57> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_57> .
 
 <https://example.org/eli/de/be/bauo/2005/par_57> eli:title "Aufbau der Bauaufsichtsbehörden"@de .
 
@@ -9172,9 +9172,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_58> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "58" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/1> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_1> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_58> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_1> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_58> .
 
 <https://example.org/eli/de/be/bauo/2005/par_58> eli:title "Aufgaben und Befugnisse der Bauaufsichtsbehörden"@de .
 
@@ -9358,21 +9358,21 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_58/abs_3> eli:description "Die mit dem Vollzug dieses Gesetzes beauftragten Personen sind, soweit dies zur Ausübung ihres Amtes erforderlich ist, berechtigt, Grundstücke und Anlagen sowie zur Verhütung dringender Gefahren für die öffentliche Sicherheit und Ordnung auch Wohnungen zu betreten. Das Grundrecht der Unverletzlichkeit der Wohnung (Artikel 13 des Grundgesetzes, Artikel 28 Abs. 2 der Verfassung von Berlin) wird insoweit eingeschränkt."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/2> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_2> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:abschnitt ;
     eli:number "Zweiter Abschnitt" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/2> .
+<https://example.org/eli/de/be/bauo/2005/teil_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/2> eli:title "Genehmigungspflicht, Genehmigungsfreiheit"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_2> eli:title "Genehmigungspflicht, Genehmigungsfreiheit"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_59> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "59" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_59> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_59> .
 
 <https://example.org/eli/de/be/bauo/2005/par_59> eli:title "Grundsatz"@de .
 
@@ -9433,9 +9433,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_60> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "60" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_60> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_60> .
 
 <https://example.org/eli/de/be/bauo/2005/par_60> eli:title "Vorrang anderer Gestattungsverfahren"@de .
 
@@ -9541,9 +9541,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_61> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "61" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_61> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_61> .
 
 <https://example.org/eli/de/be/bauo/2005/par_61> eli:title "Verfahrensfreie Bauvorhaben, Beseitigung von Anlagen"@de .
 
@@ -9883,9 +9883,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_62> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "62" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/2> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_2> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_62> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_2> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_62> .
 
 <https://example.org/eli/de/be/bauo/2005/par_62> eli:title "Genehmigungsfreistellung"@de .
 
@@ -10150,21 +10150,21 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_62/abs_6> eli:description "§ 66 bleibt unberührt. § 68 Absatz 2 Satz 1, § 72 Absatz 1, 2 Nummer 2 und Absatz 3 sowie § 73 Absatz 1 Satz 3 und Absatz 2 Satz 3 bis 5 sind entsprechend anzuwenden."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:abschnitt ;
     eli:number "Dritter Abschnitt" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+<https://example.org/eli/de/be/bauo/2005/teil_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:title "Genehmigungsverfahren"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:title "Genehmigungsverfahren"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_63> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "63" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_63> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_63> .
 
 <https://example.org/eli/de/be/bauo/2005/par_63> eli:title "Vereinfachtes Baugenehmigungsverfahren"@de .
 
@@ -10243,9 +10243,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_63a> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "63a" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_63a> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_63a> .
 
 <https://example.org/eli/de/be/bauo/2005/par_63a> eli:title "Vereinfachtes Baugenehmigungsverfahren für Werbeanlagen"@de .
 
@@ -10315,9 +10315,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_64> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "64" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_64> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_64> .
 
 <https://example.org/eli/de/be/bauo/2005/par_64> eli:title "Baugenehmigungsverfahren"@de .
 
@@ -10378,9 +10378,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_65> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "65" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65> .
 
 <https://example.org/eli/de/be/bauo/2005/par_65> eli:title "Bauvorlageberechtigung"@de .
 
@@ -10549,9 +10549,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_65a> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "65a" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65a> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65a> .
 
 <https://example.org/eli/de/be/bauo/2005/par_65a> eli:title "Voraussetzung für die Eintragung in die Liste nach § 65 Absatz 2 Nummer 2"@de .
 
@@ -10756,9 +10756,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_65b> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "65b" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65b> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65b> .
 
 <https://example.org/eli/de/be/bauo/2005/par_65b> eli:title "Eintragungsverfahren für Antragstellerinnen und Antragsteller nach § 65a Absatz 3"@de .
 
@@ -10972,9 +10972,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_65c> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "65c" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65c> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65c> .
 
 <https://example.org/eli/de/be/bauo/2005/par_65c> eli:title "Ausgleichsmaßnahmen"@de .
 
@@ -11062,9 +11062,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_65d> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "65d" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65d> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_65d> .
 
 <https://example.org/eli/de/be/bauo/2005/par_65d> eli:title "Vorübergehende und gelegentliche Dienstleistungserbringung von bauvorlageberechtigten Ingenieurinnen und Ingenieuren, Anzeigeverfahren"@de .
 
@@ -11341,9 +11341,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_66> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "66" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_66> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_66> .
 
 <https://example.org/eli/de/be/bauo/2005/par_66> eli:title "Bautechnische Nachweise"@de .
 
@@ -11539,9 +11539,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_67> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "67" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_67> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_67> .
 
 <https://example.org/eli/de/be/bauo/2005/par_67> eli:title "Abweichungen, Ausnahmen und Befreiungen"@de .
 
@@ -11683,9 +11683,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_68> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "68" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_68> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_68> .
 
 <https://example.org/eli/de/be/bauo/2005/par_68> eli:title "Bauantrag, Bauvorlagen"@de .
 
@@ -11773,9 +11773,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_69> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "69" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_69> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_69> .
 
 <https://example.org/eli/de/be/bauo/2005/par_69> eli:title "Behandlung des Bauantrags"@de .
 
@@ -12088,9 +12088,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_70> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "70" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_70> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_70> .
 
 <https://example.org/eli/de/be/bauo/2005/par_70> eli:title "Beteiligung der Nachbarn und der Öffentlichkeit"@de .
 
@@ -12457,9 +12457,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_71> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "71" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_71> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_71> .
 
 <https://example.org/eli/de/be/bauo/2005/par_71> eli:title "Baugenehmigung"@de .
 
@@ -12565,9 +12565,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_72> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "72" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_72> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_72> .
 
 <https://example.org/eli/de/be/bauo/2005/par_72> eli:title "Baubeginn"@de .
 
@@ -12691,9 +12691,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_72a> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "72a" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_72a> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_72a> .
 
 <https://example.org/eli/de/be/bauo/2005/par_72a> eli:title "Typengenehmigung"@de .
 
@@ -12808,9 +12808,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_73> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "73" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_73> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_73> .
 
 <https://example.org/eli/de/be/bauo/2005/par_73> eli:title "Geltungsdauer der Baugenehmigung"@de .
 
@@ -12943,9 +12943,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_74> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "74" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_74> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_74> .
 
 <https://example.org/eli/de/be/bauo/2005/par_74> eli:title "Teilbaugenehmigung"@de .
 
@@ -12979,9 +12979,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_75> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "75" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_75> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_75> .
 
 <https://example.org/eli/de/be/bauo/2005/par_75> eli:title "Vorbescheid, planungsrechtlicher Bescheid"@de .
 
@@ -13069,9 +13069,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_76> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "76" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_76> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_76> .
 
 <https://example.org/eli/de/be/bauo/2005/par_76> eli:title "Genehmigung Fliegender Bauten"@de .
 
@@ -13393,9 +13393,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_77> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "77" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_77> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_3> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_77> .
 
 <https://example.org/eli/de/be/bauo/2005/par_77> eli:title "Bauaufsichtliche Zustimmung"@de .
 
@@ -13651,21 +13651,21 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_77/abs_5> eli:description "Die für das Bauwesen zuständige Senatsverwaltung kann bestimmen, dass Absatz 1 auf Vorhaben Berlins ganz oder teilweise nicht anzuwenden ist."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/4> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_4> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:abschnitt ;
     eli:number "Vierter Abschnitt" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/4> .
+<https://example.org/eli/de/be/bauo/2005/teil_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/4> eli:title "Bauaufsichtliche Maßnahmen"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_4> eli:title "Bauaufsichtliche Maßnahmen"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_78> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "78" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_78> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_78> .
 
 <https://example.org/eli/de/be/bauo/2005/par_78> eli:title "Verbot unrechtmäßig gekennzeichneter Bauprodukte"@de .
 
@@ -13690,9 +13690,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_79> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "79" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_79> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_79> .
 
 <https://example.org/eli/de/be/bauo/2005/par_79> eli:title "Einstellung von Arbeiten"@de .
 
@@ -13780,9 +13780,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_80> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "80" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_80> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_80> .
 
 <https://example.org/eli/de/be/bauo/2005/par_80> eli:title "Beseitigung von Anlagen, Nutzungsuntersagung"@de .
 
@@ -13816,9 +13816,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_81> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "81" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/4> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_4> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_81> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_4> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_81> .
 
 <https://example.org/eli/de/be/bauo/2005/par_81> eli:title "Bestehende bauliche Anlagen"@de .
 
@@ -13921,21 +13921,21 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_81/abs_4> eli:description "Bei Modernisierungsvorhaben ist Absatz 3 nicht anzuwenden, es sei denn, dass anderenfalls Gefahren eintreten."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/5> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_5> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:abschnitt ;
     eli:number "Fünfter Abschnitt" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/5> .
+<https://example.org/eli/de/be/bauo/2005/teil_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/5> eli:title "Bauüberwachung"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_5> eli:title "Bauüberwachung"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_82> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "82" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/5> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_82> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_82> .
 
 <https://example.org/eli/de/be/bauo/2005/par_82> eli:title "Bauüberwachung"@de .
 
@@ -14068,9 +14068,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_83> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "83" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/5> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_83> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_83> .
 
 <https://example.org/eli/de/be/bauo/2005/par_83> eli:title "Bauzustandsanzeigen, Aufnahme der Nutzung"@de .
 
@@ -14173,21 +14173,21 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_83/abs_3> eli:description "Feuerstätten dürfen erst in Betrieb genommen werden, wenn die bevollmächtigte Bezirksschornsteinfegerin oder der bevollmächtigte Bezirksschornsteinfeger die Tauglichkeit und die sichere Benutzbarkeit der Abgasanlagen bescheinigt hat; Verbrennungsmotoren und Blockheizkraftwerke dürfen erst dann in Betrieb genommen werden, wenn sie oder er die Tauglichkeit und sichere Benutzbarkeit der Leitungen zur Abführung von Verbrennungsgasen bescheinigt hat."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/6> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_6> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:abschnitt ;
     eli:number "Sechster Abschnitt" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/6> .
+<https://example.org/eli/de/be/bauo/2005/teil_5> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/6> eli:title "Baulasten"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_6> eli:title "Baulasten"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_84> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "84" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/5/abschnitt/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_84> .
+<https://example.org/eli/de/be/bauo/2005/teil_5/abschnitt_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_84> .
 
 <https://example.org/eli/de/be/bauo/2005/par_84> eli:title "Baulasten, Baulastenverzeichnis"@de .
 
@@ -14380,21 +14380,21 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_84/abs_5> eli:description "Wer ein berechtigtes Interesse darlegt, kann in das Baulastenverzeichnis Einsicht nehmen oder sich Abschriften erteilen lassen."@de .
 
-<https://example.org/eli/de/be/bauo/2005/teil/6> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/teil_6> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:teil ;
     eli:number "SECHSTER TEIL" ;
     eli:is_part_of <https://example.org/eli/de/be/bauo/2005> .
 
-<https://example.org/eli/de/be/bauo/2005> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil/6> .
+<https://example.org/eli/de/be/bauo/2005> eli:has_part <https://example.org/eli/de/be/bauo/2005/teil_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/6> eli:title "Ordnungswidrigkeiten, Rechtsvorschriften, Zuständigkeit"@de .
+<https://example.org/eli/de/be/bauo/2005/teil_6> eli:title "Ordnungswidrigkeiten, Rechtsvorschriften, Zuständigkeit"@de .
 
 <https://example.org/eli/de/be/bauo/2005/par_85> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "85" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_85> .
+<https://example.org/eli/de/be/bauo/2005/teil_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_85> .
 
 <https://example.org/eli/de/be/bauo/2005/par_85> eli:title "Ordnungswidrigkeiten"@de .
 
@@ -14617,9 +14617,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_86> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "86" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_86> .
+<https://example.org/eli/de/be/bauo/2005/teil_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_86> .
 
 <https://example.org/eli/de/be/bauo/2005/par_86> eli:title "Rechtsverordnungen und Verwaltungsvorschriften"@de .
 
@@ -15112,9 +15112,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_86a> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "86a" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_86a> .
+<https://example.org/eli/de/be/bauo/2005/teil_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_86a> .
 
 <https://example.org/eli/de/be/bauo/2005/par_86a> eli:title "Technische Baubestimmungen"@de .
 
@@ -15301,9 +15301,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_87> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "87" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_87> .
+<https://example.org/eli/de/be/bauo/2005/teil_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_87> .
 
 <https://example.org/eli/de/be/bauo/2005/par_87> eli:title "Verarbeitung personenbezogener Daten"@de .
 
@@ -15472,9 +15472,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_88> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "88" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_88> .
+<https://example.org/eli/de/be/bauo/2005/teil_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_88> .
 
 <https://example.org/eli/de/be/bauo/2005/par_88> eli:title "Zuständigkeit für den Erlass des Widerspruchsbescheides"@de .
 
@@ -15544,9 +15544,9 @@
 <https://example.org/eli/de/be/bauo/2005/par_89> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:paragraph ;
     eli:number "89" ;
-    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil/6> .
+    eli:is_part_of <https://example.org/eli/de/be/bauo/2005/teil_6> .
 
-<https://example.org/eli/de/be/bauo/2005/teil/6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89> .
+<https://example.org/eli/de/be/bauo/2005/teil_6> eli:has_part <https://example.org/eli/de/be/bauo/2005/par_89> .
 
 <https://example.org/eli/de/be/bauo/2005/par_89> eli:title "Abwicklung eingeleiteter Verfahren, Übergangsvorschriften"@de .
 
@@ -15739,13 +15739,775 @@
 
 <https://example.org/eli/de/be/bauo/2005/par_89/abs_9> eli:description "Für Bauvorhaben, die vor dem 4. Februar 2026 noch nicht fertiggestellt waren, ist § 73 in der ab dem 4. Februar 2026 geltenden Fassung anzuwenden."@de .
 
-<https://example.org/eli/de/be/bauo/2005/gliederung/7-anlage> a eli:LegalResourceSubdivision ;
+<https://example.org/eli/de/be/bauo/2005/gliederung_7-anlage> a eli:LegalResourceSubdivision ;
     eli:type_subdivision exvocab:gliederung ;
     eli:number "Anlage" ;
     eli:is_part_of <https://example.org/eli/de/be/bauo/2005> .
 
-<https://example.org/eli/de/be/bauo/2005> eli:has_part <https://example.org/eli/de/be/bauo/2005/gliederung/7-anlage> .
+<https://example.org/eli/de/be/bauo/2005> eli:has_part <https://example.org/eli/de/be/bauo/2005/gliederung_7-anlage> .
 
-<https://example.org/eli/de/be/bauo/2005/gliederung/7-anlage> eli:title "Anlage"@de .
+<https://example.org/eli/de/be/bauo/2005/gliederung_7-anlage> eli:title "Anlage"@de .
 
 <https://example.org/eli/de/be/bauo/2005> eli:description "Automatisch aus content.xml erzeugte Struktur mit 100 Paragraphen."@de .
+
+<https://example.org/eli/de/be/bauo/2005/par_2/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_1/abs_1/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_2/abs_3/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_61/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_2/abs_10/satz_1/nr_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_6/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_30/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_6/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_32/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_6/abs_11/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_67> .
+
+<https://example.org/eli/de/be/bauo/2005/par_7/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_62> .
+
+<https://example.org/eli/de/be/bauo/2005/par_7/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_19/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_7/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_67> .
+
+<https://example.org/eli/de/be/bauo/2005/par_9/abs_3/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_10/abs_2/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_61/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16a/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86a/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16a/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_18/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16a/abs_3/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86a/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16a/abs_3/satz_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_19/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16a/abs_4/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16a/abs_5/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86a/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16a/abs_5/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_21/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16a/abs_6/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_24> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16a/abs_7/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_24> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16b/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16c/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_17> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16c/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_18> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16c/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_19> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16c/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_20> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16c/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_21> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16c/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_22> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16c/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_23> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16c/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_24> .
+
+<https://example.org/eli/de/be/bauo/2005/par_16c/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_25> .
+
+<https://example.org/eli/de/be/bauo/2005/par_17/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_18> .
+
+<https://example.org/eli/de/be/bauo/2005/par_17/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_19> .
+
+<https://example.org/eli/de/be/bauo/2005/par_17/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_20> .
+
+<https://example.org/eli/de/be/bauo/2005/par_17/abs_1/satz_1/nr_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86a/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_17/abs_1/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86/abs_4a> .
+
+<https://example.org/eli/de/be/bauo/2005/par_17/abs_3/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86a> .
+
+<https://example.org/eli/de/be/bauo/2005/par_18/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_17/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_18/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_16b/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_18/abs_2/satz_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_69/abs_1/satz_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_18/abs_4/satz_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_73/abs_2/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_19/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86a> .
+
+<https://example.org/eli/de/be/bauo/2005/par_19/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_24> .
+
+<https://example.org/eli/de/be/bauo/2005/par_19/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_16b/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_19/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_18/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_19/abs_2/satz_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_24> .
+
+<https://example.org/eli/de/be/bauo/2005/par_19/abs_2/satz_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86/abs_4> .
+
+<https://example.org/eli/de/be/bauo/2005/par_20/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_17/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_20/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_16b/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_20/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_21/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86a/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_21/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_22> .
+
+<https://example.org/eli/de/be/bauo/2005/par_22/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86a> .
+
+<https://example.org/eli/de/be/bauo/2005/par_22/abs_3/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86a> .
+
+<https://example.org/eli/de/be/bauo/2005/par_23/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_24> .
+
+<https://example.org/eli/de/be/bauo/2005/par_23/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86a/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_23/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_24> .
+
+<https://example.org/eli/de/be/bauo/2005/par_23/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86a/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_24/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_19/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_24/abs_1/satz_1/nr_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_22/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_24/abs_1/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_23/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_24/abs_1/satz_1/nr_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_23/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_24/abs_1/satz_1/nr_5> eli:cites <https://example.org/eli/de/be/bauo/2005/par_16a/abs_7> .
+
+<https://example.org/eli/de/be/bauo/2005/par_24/abs_1/satz_1/nr_5> eli:cites <https://example.org/eli/de/be/bauo/2005/par_25/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_24/abs_1/satz_1/nr_6> eli:cites <https://example.org/eli/de/be/bauo/2005/par_16a/abs_6> .
+
+<https://example.org/eli/de/be/bauo/2005/par_24/abs_1/satz_1/nr_6> eli:cites <https://example.org/eli/de/be/bauo/2005/par_25/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_25/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_24> .
+
+<https://example.org/eli/de/be/bauo/2005/par_25/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_24> .
+
+<https://example.org/eli/de/be/bauo/2005/par_26/abs_3/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_30/abs_3/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_26/abs_3/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35/abs_4/satz_1/nr_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_27/abs_1/satz_3/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_29/abs_4> .
+
+<https://example.org/eli/de/be/bauo/2005/par_28/abs_5/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86a> .
+
+<https://example.org/eli/de/be/bauo/2005/par_30/abs_10/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_6/abs_6> .
+
+<https://example.org/eli/de/be/bauo/2005/par_31/abs_1/satz_3/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_29/abs_4> .
+
+<https://example.org/eli/de/be/bauo/2005/par_34/abs_3/satz_2/nr_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35/abs_1/satz_3/nr_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_34/abs_4/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35/abs_1/satz_3/nr_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_35/abs_7/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_2/abs_3/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_36/abs_1/satz_2/nr_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_29/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_36/abs_1/satz_2/nr_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_33/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_37/abs_5/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_33/abs_2/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_40/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35/abs_3/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_40/abs_3/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_41/abs_2/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_48/abs_2/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_50/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_48/abs_5/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_6> .
+
+<https://example.org/eli/de/be/bauo/2005/par_48/abs_6/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_2/abs_3/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_48/abs_6/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_33/abs_2/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_48/abs_6/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35/abs_8> .
+
+<https://example.org/eli/de/be/bauo/2005/par_48/abs_6/satz_1/nr_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35/abs_6> .
+
+<https://example.org/eli/de/be/bauo/2005/par_48/abs_7/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_2/abs_3/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_48/abs_7/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_2/abs_3/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_48/abs_7/satz_1/nr_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_2/abs_3/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_39/abs_4/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_5> eli:cites <https://example.org/eli/de/be/bauo/2005/par_62> .
+
+<https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_5> eli:cites <https://example.org/eli/de/be/bauo/2005/par_63> .
+
+<https://example.org/eli/de/be/bauo/2005/par_50/abs_1/satz_5> eli:cites <https://example.org/eli/de/be/bauo/2005/par_64> .
+
+<https://example.org/eli/de/be/bauo/2005/par_50/abs_2/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_39/abs_4/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_50/abs_3/satz_10> eli:cites <https://example.org/eli/de/be/bauo/2005/par_39/abs_4> .
+
+<https://example.org/eli/de/be/bauo/2005/par_50/abs_6/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_67/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_51/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_51/abs_1/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_50/abs_6> .
+
+<https://example.org/eli/de/be/bauo/2005/par_53/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_54> .
+
+<https://example.org/eli/de/be/bauo/2005/par_53/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_55> .
+
+<https://example.org/eli/de/be/bauo/2005/par_53/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_56> .
+
+<https://example.org/eli/de/be/bauo/2005/par_58/abs_1/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86/abs_3/satz_1/nr_4> .
+
+<https://example.org/eli/de/be/bauo/2005/par_59/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_60> .
+
+<https://example.org/eli/de/be/bauo/2005/par_59/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_61> .
+
+<https://example.org/eli/de/be/bauo/2005/par_59/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_62> .
+
+<https://example.org/eli/de/be/bauo/2005/par_59/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_60> .
+
+<https://example.org/eli/de/be/bauo/2005/par_59/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_61> .
+
+<https://example.org/eli/de/be/bauo/2005/par_59/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_62> .
+
+<https://example.org/eli/de/be/bauo/2005/par_59/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_63> .
+
+<https://example.org/eli/de/be/bauo/2005/par_59/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_77/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_60/abs_1/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_69/abs_2/satz_6> .
+
+<https://example.org/eli/de/be/bauo/2005/par_61/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_61/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_1/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_61/abs_1/satz_1/nr_7> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_61/abs_1/satz_1/nr_14> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_61/abs_1/satz_1/nr_14> eli:cites <https://example.org/eli/de/be/bauo/2005/par_8/abs_2/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_61/abs_2/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_63> .
+
+<https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_5> eli:cites <https://example.org/eli/de/be/bauo/2005/par_66/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_7> eli:cites <https://example.org/eli/de/be/bauo/2005/par_72/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_62/abs_2/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_30/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_62/abs_2/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_75/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_62/abs_2/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_34/abs_1/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_62/abs_6/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_66> .
+
+<https://example.org/eli/de/be/bauo/2005/par_62/abs_6/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_68/abs_2/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_62/abs_6/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_72/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_62/abs_6/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_73/abs_1/satz_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_29> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_30> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_31> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_32> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_33> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_34> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_36> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_37> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_38> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_67/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_4> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_5> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_6> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_45> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_66> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_61/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_29> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_30> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_31> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_32> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_33> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_34> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_36> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_37> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_38> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_6> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_10> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_67/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_63a/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_66> .
+
+<https://example.org/eli/de/be/bauo/2005/par_64/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_29> .
+
+<https://example.org/eli/de/be/bauo/2005/par_64/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_30> .
+
+<https://example.org/eli/de/be/bauo/2005/par_64/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_31> .
+
+<https://example.org/eli/de/be/bauo/2005/par_64/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_32> .
+
+<https://example.org/eli/de/be/bauo/2005/par_64/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_33> .
+
+<https://example.org/eli/de/be/bauo/2005/par_64/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_34> .
+
+<https://example.org/eli/de/be/bauo/2005/par_64/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35> .
+
+<https://example.org/eli/de/be/bauo/2005/par_64/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_36> .
+
+<https://example.org/eli/de/be/bauo/2005/par_64/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_37> .
+
+<https://example.org/eli/de/be/bauo/2005/par_64/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_38> .
+
+<https://example.org/eli/de/be/bauo/2005/par_64/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_66> .
+
+<https://example.org/eli/de/be/bauo/2005/par_65/abs_2/satz_1/nr_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_65d> .
+
+<https://example.org/eli/de/be/bauo/2005/par_65/abs_3/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_65a> .
+
+<https://example.org/eli/de/be/bauo/2005/par_65a/abs_3/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_65a/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_65b/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_12> .
+
+<https://example.org/eli/de/be/bauo/2005/par_65b/abs_3/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_65a/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_65b/abs_4/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_65a/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_65b/abs_4/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_10> .
+
+<https://example.org/eli/de/be/bauo/2005/par_65c/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_65a/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_65d/abs_2/satz_3/nr_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_65a/abs_3/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_65d/abs_2/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_12> .
+
+<https://example.org/eli/de/be/bauo/2005/par_65d/abs_3/satz_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_65a/abs_3/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_65d/abs_3/satz_5> eli:cites <https://example.org/eli/de/be/bauo/2005/par_65a/abs_3/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_65d/abs_3/satz_6> eli:cites <https://example.org/eli/de/be/bauo/2005/par_65> .
+
+<https://example.org/eli/de/be/bauo/2005/par_66/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_66/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_65/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_66/abs_1/satz_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_65/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_66/abs_1/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_65/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_66/abs_3/satz_1/nr_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_66/abs_4/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_67> .
+
+<https://example.org/eli/de/be/bauo/2005/par_67/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_67/abs_1/satz_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86a/abs_1/satz_4> .
+
+<https://example.org/eli/de/be/bauo/2005/par_67/abs_2/satz_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_68> .
+
+<https://example.org/eli/de/be/bauo/2005/par_69/abs_4/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_63> .
+
+<https://example.org/eli/de/be/bauo/2005/par_69/abs_4/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_63a> .
+
+<https://example.org/eli/de/be/bauo/2005/par_69/abs_4/satz_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_63> .
+
+<https://example.org/eli/de/be/bauo/2005/par_69/abs_4/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_63a> .
+
+<https://example.org/eli/de/be/bauo/2005/par_69/abs_4/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_10/abs_2/satz_4> .
+
+<https://example.org/eli/de/be/bauo/2005/par_70/abs_3/satz_2/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_2/abs_4> .
+
+<https://example.org/eli/de/be/bauo/2005/par_70/abs_4/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_3/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_70/abs_4/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_2/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_70/abs_4/satz_2/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_54> .
+
+<https://example.org/eli/de/be/bauo/2005/par_70/abs_4/satz_2/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_55> .
+
+<https://example.org/eli/de/be/bauo/2005/par_70/abs_4/satz_2/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_56> .
+
+<https://example.org/eli/de/be/bauo/2005/par_70/abs_4/satz_2/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_57> .
+
+<https://example.org/eli/de/be/bauo/2005/par_70/abs_4/satz_2/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_58> .
+
+<https://example.org/eli/de/be/bauo/2005/par_70/abs_4/satz_2/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_59> .
+
+<https://example.org/eli/de/be/bauo/2005/par_70/abs_4/satz_2/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_5> .
+
+<https://example.org/eli/de/be/bauo/2005/par_70/abs_4/satz_2/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_70/abs_5/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_10/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_70/abs_6/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_71/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_71/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_70/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_72/abs_2/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_69/abs_4/satz_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_72/abs_2/satz_1/nr_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_66/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_72/abs_3/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_66/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_72a/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_73/abs_2/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_72a/abs_3/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_50/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_74/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_71> .
+
+<https://example.org/eli/de/be/bauo/2005/par_75/abs_1/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_58/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_75/abs_1/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_68> .
+
+<https://example.org/eli/de/be/bauo/2005/par_75/abs_1/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_73/abs_2/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_75/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_63> .
+
+<https://example.org/eli/de/be/bauo/2005/par_75/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_62> .
+
+<https://example.org/eli/de/be/bauo/2005/par_76/abs_4/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_73/abs_2/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_76/abs_6/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_76/abs_9/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_68/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_76/abs_9/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_82/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_1/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_70/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_66> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_67> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_68> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_69> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_70> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_71> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_72> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_73> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_74> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_3/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_29> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_3/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_30> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_3/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_31> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_3/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_32> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_3/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_33> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_3/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_34> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_3/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_3/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_36> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_3/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_37> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_3/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_38> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_3/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_67/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_3/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_70/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_77/abs_4/satz_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_76/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_78/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_21> .
+
+<https://example.org/eli/de/be/bauo/2005/par_79/abs_1/satz_2/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_72/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_79/abs_1/satz_2/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_21> .
+
+<https://example.org/eli/de/be/bauo/2005/par_79/abs_1/satz_2/nr_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_21/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_82/abs_2/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_82/abs_2/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_66/abs_3/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_82/abs_2/satz_1/nr_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_66/abs_3/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_82/abs_6/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_83/abs_2/satz_2/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_66/abs_3/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_83/abs_2/satz_2/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_82/abs_2/satz_1/nr_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_83/abs_2/satz_2/nr_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_66/abs_3/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_83/abs_2/satz_2/nr_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_82/abs_2/satz_1/nr_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_84/abs_2/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_21/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_16a> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_21/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_5> eli:cites <https://example.org/eli/de/be/bauo/2005/par_39/abs_4> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_5> eli:cites <https://example.org/eli/de/be/bauo/2005/par_49/abs_1/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_5> eli:cites <https://example.org/eli/de/be/bauo/2005/par_50> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_6> eli:cites <https://example.org/eli/de/be/bauo/2005/par_53/abs_1/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_6> eli:cites <https://example.org/eli/de/be/bauo/2005/par_54/abs_1/satz_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_6> eli:cites <https://example.org/eli/de/be/bauo/2005/par_55/abs_1/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_6> eli:cites <https://example.org/eli/de/be/bauo/2005/par_56/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_7> eli:cites <https://example.org/eli/de/be/bauo/2005/par_59/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_7> eli:cites <https://example.org/eli/de/be/bauo/2005/par_74> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_7> eli:cites <https://example.org/eli/de/be/bauo/2005/par_67> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_7> eli:cites <https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_8> eli:cites <https://example.org/eli/de/be/bauo/2005/par_72/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_8> eli:cites <https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_6> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_8> eli:cites <https://example.org/eli/de/be/bauo/2005/par_83/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_8> eli:cites <https://example.org/eli/de/be/bauo/2005/par_83/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_9> eli:cites <https://example.org/eli/de/be/bauo/2005/par_62/abs_3/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_10> eli:cites <https://example.org/eli/de/be/bauo/2005/par_72/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_10> eli:cites <https://example.org/eli/de/be/bauo/2005/par_62/abs_5> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_10> eli:cites <https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_11> eli:cites <https://example.org/eli/de/be/bauo/2005/par_76/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_11> eli:cites <https://example.org/eli/de/be/bauo/2005/par_76/abs_6> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_1/nr_12> eli:cites <https://example.org/eli/de/be/bauo/2005/par_86/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_1/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_19> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_2/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_66/abs_3/satz_1/nr_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_85/abs_4/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_36/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_16a/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_16b/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_4> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_5> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_6> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_7> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_8> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_9> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_10> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_11> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_12> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_13> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_14> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_15> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_16> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_17> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_18> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_19> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_20> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_21> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_22> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_23> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_24> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_25> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_26> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_27> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_28> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_29> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_30> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_31> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_32> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_33> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_34> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_36> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_37> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_38> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_39> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_40> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_41> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_42> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_43> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_44> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_45> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_46> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_47> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_48> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_1/satz_1/nr_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_50> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_2/satz_3/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_66/abs_2/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_3/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_61/abs_3/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_3/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_62> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_3/satz_1/nr_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_58/abs_1/satz_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_3/satz_1/nr_5> eli:cites <https://example.org/eli/de/be/bauo/2005/par_62/abs_3/satz_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_3/satz_1/nr_5> eli:cites <https://example.org/eli/de/be/bauo/2005/par_69/abs_1/satz_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_16a/abs_2/satz_1/nr_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_16a/abs_4> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4/satz_1/nr_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_20> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4/satz_1/nr_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_24> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4/satz_1/nr_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_24> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4a/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_17> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4a/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_18> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4a/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_19> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4a/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_20> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4a/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_21> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4a/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_22> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4a/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_23> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4a/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_24> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4a/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_25> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_4a/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_16a/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_77> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_5/satz_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_35/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86/abs_8/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_76/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86a/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86a/abs_1/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_16a/abs_2> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86a/abs_1/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_17/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86a/abs_1/satz_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_67/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86a/abs_2/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86a/abs_2/satz_1/nr_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_16a/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86a/abs_2/satz_1/nr_4> eli:cites <https://example.org/eli/de/be/bauo/2005/par_19/abs_1> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86a/abs_2/satz_1/nr_5> eli:cites <https://example.org/eli/de/be/bauo/2005/par_22> .
+
+<https://example.org/eli/de/be/bauo/2005/par_86a/abs_4/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_17/abs_3> .
+
+<https://example.org/eli/de/be/bauo/2005/par_87/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_53> .
+
+<https://example.org/eli/de/be/bauo/2005/par_87/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_54> .
+
+<https://example.org/eli/de/be/bauo/2005/par_87/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_55> .
+
+<https://example.org/eli/de/be/bauo/2005/par_87/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_56> .
+
+<https://example.org/eli/de/be/bauo/2005/par_87/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_58> .
+
+<https://example.org/eli/de/be/bauo/2005/par_87/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_84> .
+
+<https://example.org/eli/de/be/bauo/2005/par_87/abs_1/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_85> .
+
+<https://example.org/eli/de/be/bauo/2005/par_88/abs_1/satz_1/nr_3> eli:cites <https://example.org/eli/de/be/bauo/2005/par_51> .
+
+<https://example.org/eli/de/be/bauo/2005/par_89/abs_7/satz_2> eli:cites <https://example.org/eli/de/be/bauo/2005/par_65> .
+
+<https://example.org/eli/de/be/bauo/2005/par_89/abs_9/satz_1> eli:cites <https://example.org/eli/de/be/bauo/2005/par_73> .

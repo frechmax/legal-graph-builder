@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BauO Berlin - Querverweise (eli:cites)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="layout">
+        <header class="hero">
+            <h1>Bauordnung für Berlin - Querverweise</h1>
+            <p>Visualisierung der internen Referenzen mittels <code>eli:cites</code></p>
+        </header>
+
+        <section class="panel">
+            <div class="controls">
+                <label for="filterParagraph">Filter nach §</label>
+                <select id="filterParagraph">
+                    <option value="">Alle anzeigen</option>
+                </select>
+                <label for="layoutStrength">Abstoßung</label>
+                <input type="range" id="layoutStrength" min="-500" max="-50" value="-200">
+                <button id="resetZoom" type="button">Zoom zurücksetzen</button>
+            </div>
+            <div class="content-grid">
+                <div id="chart"></div>
+                <aside id="details" class="details-panel">
+                    <h2>Ausgewählter Knoten</h2>
+                    <p class="details-hint">Klicke auf einen Knoten für Details.</p>
+                    <div id="detailsBody"></div>
+                    <div id="statistics">
+                        <h3>Statistik</h3>
+                        <dl>
+                            <dt>Knoten gesamt</dt><dd id="statNodes">-</dd>
+                            <dt>Verweise gesamt</dt><dd id="statLinks">-</dd>
+                            <dt>Sichtbare Knoten</dt><dd id="statVisibleNodes">-</dd>
+                            <dt>Sichtbare Verweise</dt><dd id="statVisibleLinks">-</dd>
+                        </dl>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="app.js"></script>
+</body>
+</html>
